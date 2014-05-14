@@ -1,0 +1,29 @@
+<header>
+    <div class="container">
+        <div class="profile">
+        </div>
+        <h5 class="logo">RIT-EVT</h5>
+        <nav class="main">
+            <ul>
+                {% if page.nav == "blog" %}
+                    <li><a href="http://evt.rit.edu" class="active">Blog</a></li>
+                {% else %}
+                    <li><a href="http://evt.rit.edu">Blog</a></li>
+                {% endif %}
+                {% if page.nav == "about" %}
+                <li><a href="http://evt.rit.edu" class="active">About</a></li>
+                {% else %}
+                <li><a href="http://evt.rit.edu">About</a></li>
+                {% endif %}
+                {% if page.nav == "projects" %}
+                <li><a href="http://evt.rit.edu" class="active">Projects</a></li>
+                {% else %}
+                <li><a href="http://evt.rit.edu">Projects</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+        <div class="nav-slider">
+            <div class="nav-selection {{ page.nav }}"></div>
+        </div>
+    </div>
+</header>

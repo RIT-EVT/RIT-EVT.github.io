@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>This is a box | RIT EVT</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="shortcut icon" href="http://awes0.me/avatar-small.png
+?s=16">
+  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/reset.css">
+  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/font.css">
+  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/mobile.css">
+  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/desktop.css" media="(min-width:40em)">
+  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/pygments.css">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Ubuntu:300,500,300italic,500italic|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" charset="utf-8" src="http://tybenz.com/exemplar/js/matchmedia.js"></script>
+  <script type="text/javascript" charset="utf-8" src="http://tybenz.com/exemplar/js/picturefill.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+    
+    <header>
+    <div class="container">
+        <div class="profile">
+        </div>
+        <h5 class="logo">RIT-EVT</h5>
+        <nav class="main">
+            <ul>
+                
+                    <li><a href="http://evt.rit.edu">Blog</a></li>
+                
+                
+                <li><a href="http://evt.rit.edu">About</a></li>
+                
+                
+                <li><a href="http://evt.rit.edu">Projects</a></li>
+                
+            </ul>
+        </nav>
+        <div class="nav-slider">
+            <div class="nav-selection "></div>
+        </div>
+    </div>
+</header>
+
+
+    <section id="main">
+        <article class="container">
+          <h1 class="hero">This is a box</h1>
+          
+
+        </article>
+    </section>
+
+    <footer>
+    <nav class="container">
+        <ul>
+            <li>&copy; Tyler Benziger 2013</li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33073396-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<script type="text/javascript" charset="utf-8">
+    document.onreadystatechange = function() {
+        if ( document.readyState == 'complete' ) {
+            var active = document.querySelector( 'header nav.main a.active' ).innerHTML.toLowerCase(),
+                links = document.querySelectorAll( 'header nav.main li a'),
+                selection = document.querySelector( 'header .nav-selection' ),
+                subactive = document.querySelector( 'header nav.subnav a.active' ).dataset.subnav,
+                sublinks = document.querySelectorAll( 'header nav.subnav li a'),
+                subselection = document.querySelector( 'header .subnav-selection' ),
+                i, j, link;
+            for ( i = 0; i < links.length; i++ ) {
+                link = links[ i ];
+                link.addEventListener( 'mouseover', function() {
+                    selection.className = 'nav-selection';
+                    selection.className = 'nav-selection ' + this.innerHTML.toLowerCase();
+                });
+                link.addEventListener( 'mouseout', function() {
+                    selection.className = 'nav-selection ' + active;
+                });
+            }
+            for ( i = 0; i < sublinks.length; i++ ) {
+                link = sublinks[ i ];
+                link.addEventListener( 'mouseover', function() {
+                    subselection.className = 'subnav-selection';
+                    subselection.className = 'subnav-selection ' + this.dataset.subnav;
+                });
+                link.addEventListener( 'mouseout', function() {
+                    subselection.className = 'subnav-selection ' + subactive;
+                });
+            }
+        }
+    };
+</script>
+
+</html>
