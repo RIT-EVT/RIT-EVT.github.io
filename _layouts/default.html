@@ -8,29 +8,12 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
 
   <link rel="shortcut icon" href="{% include avatar_url %}?s=16">
-  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/reset.css">
-  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/font.css">
-  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/mobile.css">
-  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/desktop.css" media="(min-width:40em)">
-  <link rel="stylesheet" href="http://tybenz.com/exemplar/css/pygments.css">
   <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Ubuntu:300,500,300italic,500italic|Ubuntu+Condensed' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" charset="utf-8" src="http://tybenz.com/exemplar/js/matchmedia.js"></script>
-  <script type="text/javascript" charset="utf-8" src="http://tybenz.com/exemplar/js/picturefill.js"></script>
+  <link href="/assets/css/main.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-<div class="wrapper">
-    
-    {% include header.html %}
-
-    <section id="main">
-        <article class="container">
-          <h1 class="hero">{{page.title}}</h1>
-          {{ content }}
-        </article>
-    </section>
-
-    {% include footer.html %}
+  {{ content }}
+  {% include footer.html %}
 </body>
-{% include scripts.html %}
 </html>
