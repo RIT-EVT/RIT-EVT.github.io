@@ -1,19 +1,21 @@
 ---
-title: home
 layout: default
 ---
-<div class="banner">
-  <img src="/img/color-white-text-transparent.png"/> 
-</div>
-<div class="banner" id="center">
-  <div class="text-container">
-    <h2>Meetings:</h2>
-    <h3>     Where?</h3>
-      <p>         4th floor of KGCOE 09-4408</p>
-    <h3>     When?</h3>
-        <p>Monday 7pm-9pm<p>
-        <p>Thursday 7pm-9pm</p>
-    <h2>Contact</h2>
-       <p> Email: <a href="mailto:evt@rit.edu?Subject=Hello" target="_top"> evt@rit.edu</a></p>
-  </div>
+
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
 </div>
