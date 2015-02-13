@@ -1,6 +1,47 @@
 /**
  * Site header
  */
+.sidebar {
+    background: #999999;
+    position: fixed;
+    min-height: 100%;
+    width: 20%;
+}
+
+.sidebar a {
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:active{
+    background: #FF9900;
+}
+
+.sidebar a:hover{
+    background-color: #666666;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar img{
+    display: block;
+    margin: auto;
+}
+
+#sidebar-content{   
+    position: relative;
+    top: 50%;
+    transform: translateY(70%);
+}
+
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
