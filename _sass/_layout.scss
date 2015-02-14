@@ -1,11 +1,59 @@
 /**
  * Site header
  */
+.section{
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+    width: 100%;
+}
+.span_2_of_3 {
+    width: 66.1%;
+}
+.span_1_of_3 {
+    width: 30%;
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width: 100%;
+}
+.span_1_of_2 {
+    width: 49.2%;
+}
+
+
+
 .sidebar {
     background: #999999;
     position: fixed;
     min-height: 100%;
     width: 20%;
+    display: block;
+    //float: left;
 }
 
 .sidebar a {
@@ -40,7 +88,6 @@
     top: 50%;
     transform: translateY(70%);
 }
-
 
 .site-header {
     border-top: 5px solid $grey-color-dark;
@@ -203,7 +250,11 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    position:relative;
+    width: 80%;
+    overflow: auto;
+    z-index: -1;
+    float: right;
 }
 
 .page-heading {
