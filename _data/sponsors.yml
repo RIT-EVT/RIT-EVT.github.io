@@ -1,10 +1,71 @@
 # logo sizes: 0 - none, 1 - small, 2 - med, 3 - large
 ---
-- name: "AllCell"
-  image_size: 200
-  image: "/img/AllCell.png"
 
 - name: "Rochester Gas and Electric"
   image_size: 300
+  level: 3
   image: "/img/RGE.png"
+  website: "http://"
+
+- name: "AllCell"
+  image_size: 300
+  level: 3
+  image: "/img/AllCell.png"
+  website: "http://"
+
+- name: "Solidworks"
+  image_size: 300
+  level: 3
+  image: "/img/solidworks.png"
+  website: "http://"
+
+- name: "AllCell"
+  image_size: 200
+  level: 2
+  image: "/img/AllCell.png"
+  website: "http://"
+
+- name: "Rochester Gas and Electric"
+  image_size: 200
+  level: 2
+  image: "/img/RGE.png"
+  website: "http://"
+
+- name: "Solidworks"
+  image_size: 200
+  level: 2
+  image: "/img/solidworks.png"
+  website: "http://"
+
+- name: "Solidworks"
+  image_size: 100
+  level: 1
+  image: "/img/solidworks.png"
+  website: "http://"
+
+- name: "Rochester Gas and Electric"
+  image_size: 100
+  level: 1
+  image: "/img/RGE.png"
+  website: "http://"
+
+- name: "AllCell"
+  image_size: 100
+  level: 1
+  image: "/img/AllCell.png"
+  website: "http://"
+
+- name: "Rochester Gas and Electric"
+  image_size: 100
+  level: 1
+  image: "/img/RGE.png"
+  website: "http://"
+
+- name: "AllCell"
+  image_size: 100
+  level: 1
+  image: "/img/AllCell.png"
+  website: "http://"
+
+
 ---
