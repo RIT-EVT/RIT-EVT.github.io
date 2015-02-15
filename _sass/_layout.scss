@@ -31,10 +31,10 @@
     width: 100%;
 }
 .span_2_of_3 {
-    width: 66.1%;
+    width: 66.13%;
 }
 .span_1_of_3 {
-    width: 30%;
+    width: 30.26%;
 }
 
 /*  GRID OF TWO  */
@@ -42,7 +42,13 @@
     width: 100%;
 }
 .span_1_of_2 {
-    width: 49.2%;
+    width: 47.2%;
+}
+
+.project-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -53,7 +59,6 @@
     min-height: 100%;
     width: 20%;
     display: block;
-    //float: left;
 }
 
 .sidebar a {
@@ -78,6 +83,9 @@
     padding: 0;
 }
 
+.sidebar ul li {
+    display: inline;
+}
 .sidebar img{
     display: block;
     margin: auto;
@@ -85,8 +93,8 @@
 
 #sidebar-content{   
     position: relative;
-    top: 50%;
-    transform: translateY(70%);
+    //top: 50%;
+    //transform: translateY(70%);
 }
 
 .site-header {
@@ -250,7 +258,6 @@
  * Page content
  */
 .page-content {
-    position:relative;
     width: 80%;
     overflow: auto;
     z-index: -1;
@@ -325,4 +332,19 @@
             font-size: 18px;
         }
     }
+}
+
+@media only screen and (max-width: 610px) {
+    .col {  margin: 1% 0 1% 0%; }
+    .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    .span_1_of_2, .span_2_of_2 { width: 100%; }
+    .sidebar{
+        width: 100%;
+        min-height: 5%;
+        position: static;
+    }
+    .page-content{
+        width: 100%;
+    }
+
 }
