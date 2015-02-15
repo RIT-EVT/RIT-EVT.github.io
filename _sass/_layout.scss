@@ -358,3 +358,24 @@
   padding: 3%;
 
 }
+
+.btn {
+  background-color: #e2650f;
+  border-radius: 10px;
+  padding: 1% 3%;
+  color: #ffffff;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  text-underline-mode: none;
+  background-color: #bf550c;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn:visited {
+  color: #ffffff;
+}
