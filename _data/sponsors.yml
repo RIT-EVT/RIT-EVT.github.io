@@ -5,67 +5,67 @@
   image_size: 300
   level: 3
   image: "/img/RGE.png"
-  website: "http://"
+  website: "http://www.rge.com/"
 
 - name: "AllCell"
   image_size: 300
   level: 3
   image: "/img/AllCell.png"
-  website: "http://"
+  website: "http://www.allcelltech.com/"
 
 - name: "Solidworks"
   image_size: 300
   level: 3
   image: "/img/solidworks.png"
-  website: "http://"
+  website: "http://www.solidworks.com/"
 
 - name: "AllCell"
   image_size: 200
   level: 2
   image: "/img/AllCell.png"
-  website: "http://"
+  website: "http://www.allcelltech.com/"
 
 - name: "Rochester Gas and Electric"
   image_size: 200
   level: 2
   image: "/img/RGE.png"
-  website: "http://"
+  website: "http://www.rge.com/"
 
 - name: "Solidworks"
   image_size: 200
   level: 2
   image: "/img/solidworks.png"
-  website: "http://"
+  website: "http://www.solidworks.com/"
 
 - name: "Solidworks"
   image_size: 100
   level: 1
   image: "/img/solidworks.png"
-  website: "http://"
+  website: "http://www.solidworks.com/"
 
 - name: "Rochester Gas and Electric"
   image_size: 100
   level: 1
   image: "/img/RGE.png"
-  website: "http://"
+  website: "http://www.rge.com/"
 
 - name: "AllCell"
   image_size: 100
   level: 1
   image: "/img/AllCell.png"
-  website: "http://"
+  website: "http://www.allcelltech.com/"
 
 - name: "Rochester Gas and Electric"
   image_size: 100
   level: 1
   image: "/img/RGE.png"
-  website: "http://"
+  website: "http://www.rge.com/"
 
 - name: "AllCell"
   image_size: 100
   level: 1
   image: "/img/AllCell.png"
-  website: "http://"
+  website: "http://www.allcelltech.com/"
 
 
 ---

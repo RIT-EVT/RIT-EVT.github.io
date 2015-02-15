@@ -6,11 +6,14 @@ layout: default
     <div class="sponsor-row">
         {% for s in site.data.sponsors %}
         {% if s.level >= 3 %}
+
             <div class="sponsor-large">
                 <!--h3>{{s.name}}</h3-->
-                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em>
-                <h4>{{s.rank}}</h4>
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                </a>
             </div>
+
         {% endif %}
         {% endfor %}
     </div>
@@ -18,11 +21,14 @@ layout: default
     <div class="sponsor-row">
         {% for s in site.data.sponsors %}
         {% if s.level == 2 %}
-        <div class="sponsor-med">
-            <!--h3>{{s.name}}</h3-->
-            <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em>
-            <h4>{{s.rank}}</h4>
-        </div>
+
+            <div class="sponsor-med">
+                <!--h3>{{s.name}}</h3-->
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                </a>
+            </div>
+
         {% endif %}
         {% endfor %}
     </div>
@@ -30,11 +36,14 @@ layout: default
     <div class="sponsor-row">
         {% for s in site.data.sponsors %}
         {% if s.level == 1 %}
-        <div class="sponsor-small">
-            <!--h3>{{s.name}}</h3-->
-            <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em>
-            <h4>{{s.rank}}</h4>
-        </div>
+
+            <div class="sponsor-small">
+                <!--h3>{{s.name}}</h3-->
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                </a>
+            </div>
+
         {% endif %}
         {% endfor %}
     </div>
