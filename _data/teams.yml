@@ -53,7 +53,7 @@
 
 - name: Firmware
   img: "/img/color-transparent-logo.svg"
-  lead: Josh Jones
+  lead: Derek Gutheil
   lead_img: "/img/color-transparent-logo.svg"
   description: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit.

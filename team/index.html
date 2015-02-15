@@ -54,7 +54,7 @@ layout: default
 
   <div class="section group">
 
-    <div class="col span_1_of_3">
+    <div class="col span_1_of_2">
       <div class="section group">
         <div class="col span_1_of_2">
           <img src={{ team.lead_img }}>
@@ -64,6 +64,15 @@ layout: default
           <h3>{{team.name}} Team Lead</h3>
         </div>
       </div>
+    </div>
+
+    <div class="col span_1_of_2">
+      <h3>Members:</h3>
+      <ul>
+      {% for member in team.members %}
+        <li>{{member}}</li>
+      {% endfor %}
+      </ul>
     </div>
   </div>
   
