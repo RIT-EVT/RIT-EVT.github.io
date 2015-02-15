@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<h1>Officers</h1>
+<div class="section group">
+  {% for officer in site.data.officers %}
+  <div class=" col span_1_of_3">
+    <div class="section group">
+      <div class="officer-picture col span_1_of_2">
+      <img src={{officer.img}}>
+    </div>
+    <div class="officer-info col span_1_of_2">
+      <h2>{{officer.name}}</h2>
+      <h3>{{officer.position}}</h3>
+    </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% for team in site.data.teams %}
+<h1>{{team.name}}</h1>
+
+<div>
+
+  <div class="section group">
+    <div class="col span_1_of_2">
+      <img src={{team.img}}>
+    </div>
+    <div class="col span_1_of_2">
+      <p>{{team.description}}</p>
+    </div>
+  </div>
+
+  <div class="section group">
+    <div class="col span_1_of_2">
+      <h3>Current Projects:</h3>
+      <ul>
+      {% for project in team.current_projects %}
+        <li>{{project}}</li>
+      {% endfor %}
+      </ul>
+    </div>
+    <div class="col span_1_of_2">
+      <h3>Past Projects:</h3>
+      {% for project in team.past_projects %}
+        <li>{{project}}</li>
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+{% endfor%}
