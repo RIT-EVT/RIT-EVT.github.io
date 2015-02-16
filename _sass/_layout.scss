@@ -98,6 +98,16 @@
     //transform: translateY(70%);
 }
 
+.connect-bar{
+    margin-left: 10%;
+    margin-right: 10%;
+    clear: both;
+    img {
+        height: 2em;
+    }
+}
+
+
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -347,6 +357,10 @@
     }
     .page-content{
         width: 100%;
+    }
+    .connect-bar{
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
 }
