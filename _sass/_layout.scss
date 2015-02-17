@@ -367,3 +367,61 @@
     }
 
 }
+
+.sponsor-container {
+  text-align: center;
+  width: 100%
+}
+
+.sponsor-row {
+  display:inline-block;
+  width: 100%
+}
+
+.sponsor-large {
+  //max-width: 30%;
+  display:inline-block;
+  font-size: 1.5em;
+  padding:  1%;
+}
+
+.sponsor-med {
+  //max-width: 20%;
+  display:inline-block;
+  font-size: 1.2em;
+  padding: 2%;
+
+}
+
+.sponsor-small {
+  //max-width: 15%;
+  display:inline-block;
+  font-size: 1em;
+  padding: 3%;
+
+}
+
+.btn {
+  background-color: #F58120;
+  border-radius: 5px;
+  padding: 2% 5%;
+  color: #ffffff;
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  text-underline-mode: none;
+  background-color: #e1761d;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn:active {
+  background-color: #934d13;
+}
+
+.btn:visited {
+  color: #ffffff;
+}

@@ -1,0 +1,46 @@
+# logo sizes: 0 - none, 1 - small, 2 - med, 3 - large
+---
+
+- name: "Solidworks"
+  image_size: 300
+  level: 3
+  image: "/img/solidworks.png"
+  website: "http://www.solidworks.com/"
+
+- name: "Creaform"
+  image_size: 300
+  level: 3
+  image: "/img/CreaformLogo.png"
+  website: "http://www.creaform3d.com"
+
+- name: "Student Government"
+  image_size: 300
+  level: 3
+  image: "/img/student-gov.svg"
+  website: "https://www.sg.rit.edu/"
+
+- name: "Rochester Gas and Electric"
+  image_size: 300
+  level: 3
+  image: "/img/RGE.png"
+  website: "http://www.rge.com/"
+
+- name: "General Electric"
+  image_size: 150
+  level: 2
+  image: "/img/General_Electric_Logo.svg"
+  website: "http://www.generalelectric.com/"
+
+- name: "AllCell"
+  image_size: 200
+  level: 2
+  image: "/img/AllCell.png"
+  website: "http://www.allcelltech.com/"
+
+- name: "MicroChip"
+  image_size: 200
+  level: 2
+  image: "/img/Microchip-Logo.svg"
+  website: "http://www.microchip.com/"
+
+---
