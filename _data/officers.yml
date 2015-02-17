@@ -1,0 +1,12 @@
+---
+- name: Jeffrey Botticello
+  position: President
+  img: "/img/color-transparent-logo.svg"
+
+- name: Yulesh Patel
+  position: Vice President
+  img: "/img/color-transparent-logo.svg"
+
+- name: John Lillibridge
+  position: Treasurer
+  img: "/img/color-transparent-logo.svg"

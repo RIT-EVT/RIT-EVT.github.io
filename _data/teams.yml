@@ -1,0 +1,78 @@
+---
+- name: Mechanical
+  img: "/img/color-transparent-logo.svg"
+  lead: James Hertzel
+  lead_img: "/img/color-transparent-logo.svg"
+  description: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
+   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
+   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
+   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
+   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
+   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
+   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
+   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
+   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
+   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+  current_projects:
+    - coming soon
+  past_projects:
+    - coming_soon
+  members:
+    - John Doe
+    - Guy Faux
+    - Jane Doe
+    - Gal Faux
+
+- name: Electrical
+  img: "/img/color-transparent-logo.svg"
+  lead: Josh Jones
+  lead_img: "/img/color-transparent-logo.svg"
+  description: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
+   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
+   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
+   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
+   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
+   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
+   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
+   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
+   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
+   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+  current_projects:
+    - coming soon
+  past_projects:
+    - coming_soon
+  members:
+    - John Doe
+    - Guy Faux
+    - Jane Doe
+    - Gal Faux  
+
+- name: Firmware
+  img: "/img/color-transparent-logo.svg"
+  lead: Derek Gutheil
+  lead_img: "/img/color-transparent-logo.svg"
+  description: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
+   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
+   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
+   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
+   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
+   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
+   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
+   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
+   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
+   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+  current_projects:
+    - coming soon
+  past_projects:
+    - coming_soon
+  members:
+    - John Doe
+    - Guy Faux
+    - Jane Doe
+    - Gal Faux
