@@ -94,8 +94,6 @@
 
 #sidebar-content{   
     position: relative;
-    //top: 50%;
-    //transform: translateY(70%);
 }
 
 .connect-bar{
@@ -104,8 +102,10 @@
     clear: both;
     img {
         height: 2em;
+        min-width: 1em;
     }
 }
+
 
 
 .site-header {
@@ -361,6 +361,9 @@
     .connect-bar{
         margin-left: 20%;
         margin-right: 20%;
+    }
+    .connect-icon{
+        width: 33.33%;
     }
 
 }
