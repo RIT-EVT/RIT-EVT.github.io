@@ -59,6 +59,7 @@
     min-height: 100%;
     width: 20%;
     display: block;
+    padding-top: 10%;
 }
 
 .sidebar a {
@@ -93,9 +94,19 @@
 
 #sidebar-content{   
     position: relative;
-    //top: 50%;
-    //transform: translateY(70%);
 }
+
+.connect-bar{
+    margin-left: 10%;
+    margin-right: 10%;
+    clear: both;
+    img {
+        height: 2em;
+        min-width: 1em;
+    }
+}
+
+
 
 .site-header {
     border-top: 5px solid $grey-color-dark;
@@ -342,9 +353,17 @@
         width: 100%;
         min-height: 5%;
         position: static;
+        padding-top: 0%;
     }
     .page-content{
         width: 100%;
+    }
+    .connect-bar{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .connect-icon{
+        width: 33.33%;
     }
 
 }
