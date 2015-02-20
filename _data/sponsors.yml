@@ -28,7 +28,7 @@
 - name: "General Electric"
   image_size: 150
   level: 2
-  image: "/img/General_Electric_Logo.svg"
+  image: "/img/General_Electric_logo.svg"
   website: "http://www.generalelectric.com/"
 
 - name: "AllCell"
