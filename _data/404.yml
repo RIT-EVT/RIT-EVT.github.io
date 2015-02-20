@@ -1,0 +1,8 @@
+---
+
+- name: "404"
+  image_size: 300
+  level: 3
+  image: "/img/404.png"
+
+---
