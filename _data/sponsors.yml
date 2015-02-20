@@ -24,13 +24,7 @@
   level: 3
   image: "/img/RGE.png"
   website: "http://www.rge.com/"
-
-- name: "General Electric"
-  image_size: 150
-  level: 2
-  image: "/img/General_Electric_logo.svg"
-  website: "http://www.generalelectric.com/"
-
+  
 - name: "AllCell"
   image_size: 200
   level: 2
