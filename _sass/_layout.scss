@@ -75,13 +75,7 @@
 }
 
 .sidebar a {
-    display: block;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: white;
-    background: #F36E21;
-    font-weight: bold;
+    
 }
 
 .sidebar a:active{
@@ -116,6 +110,13 @@
     margin-top: 1em;
     a {
         margin-top: 0.5em;
+        display: block;
+        text-align: center;
+        padding: 15px 20px;
+        text-decoration: none;
+        color: white;
+        background: #F36E21;
+        font-weight: bold;
     }
 }
 
@@ -132,6 +133,8 @@
 .connect-bar{
     //margin-left: 10%;
     //margin-right: 10%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     clear: both;
     img {
         height: 2em;
