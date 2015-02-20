@@ -17,11 +17,11 @@
     background: #ECF0F1;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
     h2 {
         color: #F36E21;
     }
     p {
-        //color: white; 
     }
     
 }
@@ -119,6 +119,14 @@
     }
 }
 
+#sidebar-meetings{
+    h3 {
+        font-weight: bold;
+    }
+    margin-left:0.5em;
+    bottom: 0;
+}
+
 
 
 .connect-bar{
@@ -136,6 +144,7 @@
         background: none;
     }
 }
+
 
 .full-text-span {
     margin: 1% 0 1% 1.6%;
@@ -342,45 +351,13 @@
 /**
  * Posts
  */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+.post {
+    padding: 50px 80px 50px 80px;
+    background: #ECF0F1;
+    margin-top: 1em;
+    box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
+    a {
+        color: #F36E21;
     }
 }
 
@@ -403,6 +380,9 @@
     }
     .connect-icon{
         width: 33.33%;
+    }
+    #sidebar-meetings{
+        display: none;
     }
 
 }
