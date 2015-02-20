@@ -1,19 +1,33 @@
 ---
-title: home
 layout: default
+title: home
 ---
-<div class="banner">
-  <img src="/img/color-white-text-transparent.png"/> 
-</div>
-<div class="banner" id="center">
-  <div class="text-container">
-    <h2>Meetings:</h2>
-    <h3>     Where?</h3>
-      <p>         4th floor of KGCOE 09-4408</p>
-    <h3>     When?</h3>
-        <p>Monday 7pm-9pm<p>
-        <p>Thursday 7pm-9pm</p>
-    <h2>Contact</h2>
-       <p> Email: <a href="mailto:evt@rit.edu?Subject=Hello" target="_top"> evt@rit.edu</a></p>
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+<div class="post">
+
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date | date:"%b %-d, %Y" }}</span>
+  </p>
+  <div class="content">
+    {{ post.content }}
   </div>
+</div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
 </div>

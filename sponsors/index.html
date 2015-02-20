@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<h1>Sponsors</h1>
+<div class="sponsor-container">
+    <div class="sponsor-row panel">
+        <h3>Gigawatt Sponsors</h3>
+        {% for s in site.data.sponsors %}
+        {% if s.level >= 3 %}
+
+            <div class="sponsor-large">
+                <!--h3>{{s.name}}</h3-->
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                </a>
+            </div>
+
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="sponsor-row panel">
+        <h3>Megawatt Sponsors</h3>
+        {% for s in site.data.sponsors %}
+        {% if s.level == 2 %}
+
+            <div class="sponsor-med">
+                <!--h3>{{s.name}}</h3-->
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                </a>
+            </div>
+
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="sponsor-row">
+
+        {% for s in site.data.sponsors %}
+        {% if s.level == 1 %}
+
+            <div class="sponsor-small">
+                <!--h3>{{s.name}}</h3-->
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                </a>
+            </div>
+
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<div style="padding: 2%; text-align: center">
+    <a class="btn" href="/documents/sponsorship.pdf">
+        Become a Sponsor
+    </a>
+</div><br>

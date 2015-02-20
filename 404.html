@@ -1,5 +1,17 @@
 ---
 layout: default
-title: Page Not Found
+title: Opps
 ---
-That page doesn't exist
+<div class="404_text" style="padding: 2%; text-align: center">Looks like you hit a broken link</div>
+<div class="404" style="padding: 2%; text-align: center">
+        {% for s in site.data.404 %}
+        {% if s.level >= 3 %}
+                <!--h3>{{s.name}}</h3-->
+                <a href="{{ s.website }}" target="_blank">
+                    <img src="{{ s.image }}" alt="{{s.name}}" width="{{s.image_size}}em" />
+                </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+<div class="404_text" style="padding: 2%; text-align: center">Our IT guy is on it!</div>
