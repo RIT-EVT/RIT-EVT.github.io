@@ -119,6 +119,14 @@
     }
 }
 
+#sidebar-meetings{
+    h3 {
+        font-weight: bold;
+    }
+    margin-left:0.5em;
+    bottom: 0;
+}
+
 
 
 .connect-bar{
@@ -372,6 +380,9 @@
     }
     .connect-icon{
         width: 33.33%;
+    }
+    #sidebar-meetings{
+        display: none;
     }
 
 }
