@@ -3,7 +3,8 @@ layout: default
 ---
 <h1>Sponsors</h1>
 <div class="sponsor-container">
-    <div class="sponsor-row">
+    <div class="sponsor-row panel">
+        <h3>Gigawatt Sponsors</h3>
         {% for s in site.data.sponsors %}
         {% if s.level >= 3 %}
 
@@ -18,7 +19,8 @@ layout: default
         {% endfor %}
     </div>
 
-    <div class="sponsor-row">
+    <div class="sponsor-row panel">
+        <h3>Megawatt Sponsors</h3>
         {% for s in site.data.sponsors %}
         {% if s.level == 2 %}
 
@@ -34,6 +36,7 @@ layout: default
     </div>
 
     <div class="sponsor-row">
+
         {% for s in site.data.sponsors %}
         {% if s.level == 1 %}
 
