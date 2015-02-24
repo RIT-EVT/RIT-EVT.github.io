@@ -43,4 +43,16 @@
   image: "/img/Microchip-Logo.png"
   website: "http://www.microchip.com/"
 
+- name: "Hollywood Electrics"
+  image_size: 200
+  level: 1
+  image: "/img/HollywoodElectrics.jpg"
+  website: "http://hollywoodelectrics.com"
+
+- name: "Country Rode Motorwerks"
+  image_size: 250
+  level: 1
+  image: "/img/CountryRodeMotowerks.png"
+  website: "http://www.countryrode.com"
+
 ---
