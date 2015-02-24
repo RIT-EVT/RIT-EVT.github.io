@@ -40,7 +40,7 @@
 - name: "MicroChip"
   image_size: 200
   level: 2
-  image: "/img/Microchip-Logo.svg"
+  image: "/img/Microchip-Logo.png"
   website: "http://www.microchip.com/"
 
 ---
