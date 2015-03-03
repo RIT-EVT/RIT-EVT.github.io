@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<h1>Member Resources</h1>
+{% for r in site.data.resources %}
+<div class="section group panel">
+    <div class="col span_3_of_3">
+        <h2>{{ r.name }}</h2>
+        <div class="col span_3_of_3">
+        {% if r.image %}
+            {% if r.image_pos == "left" %}
+            <div class="col span_1_of_3">
+                <img src="{{ r.image }}">
+            </div>
+            {% endif %}
+        <p class="col span_2_of_3" style="padding: 1% 0">
+            {{ r.description }}
+        </p>
+            {% if r.image_pos != "left" %}
+            <div class="col span_1_of_3">
+                <img src="{{ r.image }}" width="{{ r.image_width }}">
+            </div>
+            {% endif %}
+        {% else %}
+        <p class="col span_3_of_3" style="padding: 1% 0">
+            {{ r.description }}
+        </p>
+        {% endif %}
+        </div>
+        <div style="padding: 3%; text-align: center" >
+            <a class="btn" style="width: 100%" href="{{ r.url }}" target="_blank">{{ r.button_text }}</a>
+        </div>
+    </div>
+</div>
+{% endfor %}
