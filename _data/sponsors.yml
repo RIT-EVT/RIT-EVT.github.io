@@ -4,55 +4,60 @@
 - name: "Solidworks"
   image_size: 300
   level: 3
-  image: "/img/solidworks.png"
+  image: "/img/sponsor_logo/solidworks.png"
   website: "http://www.solidworks.com/"
 
 - name: "Creaform"
   image_size: 300
   level: 3
-  image: "/img/CreaformLogo.png"
+  image: "/img/sponsor_logo/CreaformLogo.png"
   website: "http://www.creaform3d.com"
 
 - name: "Student Government"
   image_size: 300
   level: 3
-  image: "/img/student-gov.svg"
+  image: "/img/sponsor_logo/student-gov.svg"
   website: "https://www.sg.rit.edu/"
 
 - name: "Rochester Gas and Electric"
   image_size: 300
   level: 3
-  image: "/img/RGE.png"
+  image: "/img/sponsor_logo/RGE.png"
   website: "http://www.rge.com/"
 
 - name: "General Electric"
   image_size: 150
   level: 2
-  image: "/img/General_Electric_logo.svg"
+  image: "/img/sponsor_logo/General_Electric_logo.svg"
   website: "http://www.generalelectric.com/"
   
 - name: "AllCell"
   image_size: 200
   level: 2
-  image: "/img/AllCell.png"
+  image: "/img/sponsor_logo/AllCell.png"
   website: "http://www.allcelltech.com/"
 
 - name: "MicroChip"
   image_size: 200
   level: 2
-  image: "/img/Microchip-Logo.png"
+  image: "/img/sponsor_logo/Microchip-Logo.png"
   website: "http://www.microchip.com/"
 
 - name: "Hollywood Electrics"
   image_size: 200
   level: 1
-  image: "/img/HollywoodElectrics.jpg"
+  image: "/img/sponsor_logo/HollywoodElectrics.jpg"
   website: "http://hollywoodelectrics.com"
 
 - name: "Country Rode Motorwerks"
   image_size: 250
   level: 1
-  image: "/img/CountryRodeMotowerks.png"
+  image: "/img/sponsor_logo/CountryRodeMotowerks.png"
   website: "http://www.countryrode.com"
+
+- name: "Jon Allen"
+  image_size: 250
+  level: 1
+  image: "/img/sponsor_logo/jonallen.png"
 
 ---
