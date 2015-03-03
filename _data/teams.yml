@@ -1,6 +1,6 @@
 ---
 - name: Mechanical
-  img: "/img/members/JamesHertzel.JPG"
+  img: "/img/color-transparent-logo.svg"
   lead: James Hertzel
   lead_img: "/img/members/JamesHertzel.JPG"
   description: >
@@ -26,7 +26,7 @@
     - Gal Faux
 
 - name: Electrical
-  img: "/img/members/JoshuaJones.JPG"
+  img: "/img/color-transparent-logo.svg"
   lead: Joshua Jones
   lead_img: "/img/members/JoshuaJones.JPG"
   description: >
@@ -52,7 +52,7 @@
     - Gal Faux  
 
 - name: Firmware
-  img: "/img/members/DerekGutheil.JPG"
+  img: "/img/color-transparent-logo.svg"
   lead: Derek Gutheil
   lead_img: "/img/members/DerekGutheil.JPG"
   description: >
@@ -78,7 +78,7 @@
     - Gal Faux
 
 - name: Software
-  img: "/img/members/BenKantor.JPG"
+  img: "/img/color-transparent-logo.svg"
   lead: Ben Kantor
   lead_img: "/img/members/BenKantor.JPG"
   description: >

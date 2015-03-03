@@ -3,12 +3,13 @@ layout: default
 ---
 
 <h1>Officers</h1>
-<div class="section group">
+
   {% for officer in site.data.officers %}
-  <div class=" col span_1_of_3">
-    <div class="section group">
-      <div class="officer-picture col span_1_of_2">
-        <img src={{officer.img}}>
+<div class="section group">
+  <div class="col span_1_of_2">
+    <div class="panel section group">
+      <div class="col span_1_of_2">
+        <img class="picture"src={{officer.img}}>
       </div>
       <div class="officer-info col span_1_of_2">
         <h2>{{officer.name}}</h2>
@@ -22,11 +23,11 @@ layout: default
 {% for team in site.data.teams %}
 <h1>{{team.name}}</h1>
 
-<div>
+<div class="panel">
 
   <div class="section group">
     <div class="col span_1_of_2">
-      <img src={{team.img}}>
+      <img class="picture" src={{team.img}}>
     </div>
     <div class="col span_1_of_2">
       <p>{{team.description}}</p>
@@ -57,7 +58,7 @@ layout: default
     <div class="col span_1_of_2">
       <div class="section group">
         <div class="col span_1_of_2">
-          <img src={{ team.lead_img }}>
+          <img class="picture" src={{ team.lead_img }}>
         </div>
         <div class="col span_1_of_2">
           <h2>{{team.lead}}</h2>
