@@ -40,7 +40,7 @@
 - name: "MicroChip"
   image_size: 200
   level: 2
-  image: "/img/sponsor_logo/Microchip-Logo.png"
+  image: "/img/sponsor_logo/Microchip.png"
   website: "http://www.microchip.com/"
 
 - name: "Hollywood Electrics"
