@@ -4,7 +4,7 @@
   image: "/img/resource_images/JIRA_logo.svg"
   image_pos: "left"
   image_width: 300
-  description: "asldhf asdlkfh adhsfh aksldfhklha kfaklsdhf klahsdkjlf "
+  description: "Project management system"
   url: "https://evt-jira.rit.edu"
 
 - name: "Wiki"
@@ -14,26 +14,37 @@
   description: "asldhf asdlkfh adhsfh aksldfhklha kfaklsdhf klahsdkjlf "
   url: "https://wiki.rit.edu/display/EVT/"
 
-- name: "Swipe/Fileshare/Wiki Access"
+- name: "Resource Access Form (Swipe/Fileshare/Wiki)"
   button_text: "Request Access"
+  image: "/img/resource_images/form_icon.png"
+  image_pos: "left"
+  image_width: 150
   url: "http://goo.gl/jv3Ais"
 
 
 - name: "Fileshare"
   button_text: "How to Connect"
   image: "/img/resource_images/folder.png"
-  image_width: "150"
+  image_width: 150
   url:
 
 - name: "BitBucket"
   button_text: "Click Here"
-  url:
+  image: "/img/resource_images/bitbucket.svg"
+  image_width: 150
+  image_pos: left
+  url: https://bitbucket.org/evt
 
 
 - name: "Github"
   button_text: "Click Here"
-  url:
+  image: "/img/resource_images/octocat.svg"
+  image_width: 180
+  url: https://github.com/RIT-EVT
 
 - name: "Jenkins"
   button_text: "Click Here"
   url: http://evt-jenkins.rit.edu
+  image: "/img/resource_images/jenkins.png"
+  image_pos: "left"
+  image_width: 150

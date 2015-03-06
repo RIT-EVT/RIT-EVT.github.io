@@ -449,3 +449,20 @@
 .btn:visited {
   color: #ffffff;
 }
+
+@media(max-width:767px){  //x-small
+  .resource-panel {
+    width: 100%;
+  }
+}
+@media(min-width:768px){  //small
+
+}
+@media(min-width:992px){  //med
+  .resource-panel {
+    width: 40%;
+  }
+}
+@media(min-width:1200px){ //large
+
+}
