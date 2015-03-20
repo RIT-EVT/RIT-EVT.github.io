@@ -3,24 +3,31 @@ layout: default
 ---
 <h1>Member Resources</h1>
 
-{% for r in site.data.resources %}
-<div class="section resource-panel panel" style="display: inline-block">
-    <div class="">
-        <h2>{{ r.name }}</h2>
-        <div class="">
-        {% if r.image %}
-            <div class="col span_3_of_3" style="text-align: center; margin: 3%">
-                <img src="{{ r.image }}" width="{{ r.image_width }}" height="{{ r.image_height }}">
+<div class="resource-container">
+    {% for r in site.data.resources %}
+    <div class="panel resource-panel">
+
+        <div class="resource-title">
+            <h2>{{ r.name }}</h2>
+        </div>
+
+        <div class="resource-content">
+            {% if r.image %}
+            <div class=" resource-img-container" style="width: {{r.image_height}}px;">
+                <img class="resource-img" src="{{ r.image }}" >
             </div>
-        {% endif %}
-        <p class="" style="padding: 1% 0">
-            {{ r.description }}
-        </p>
+            {% endif %}
+            <div class="resource-desc">
+                <p class="" style="">
+                    {{ r.description }}
+                </p>
+            </div>
 
         </div>
-        <div style="padding: 3%; text-align: center" >
+        <div class="" style="padding: 3%; text-align: center; display: block">
             <a class="btn" style="width: 100%" href="{{ r.url }}" target="_blank">{{ r.button_text }}</a>
         </div>
+
     </div>
+    {% endfor %}
 </div>
-{% endfor %}

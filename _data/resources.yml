@@ -2,49 +2,54 @@
 - name: "Jira"
   button_text: "Click Here"
   image: "/img/resource_images/JIRA_logo.svg"
-  image_pos: "left"
-  image_width: 300
-  description: "Project management system"
+  image_height: 300
   url: "https://evt-jira.rit.edu"
+  description: "Issue tracking project management software."
+
 
 - name: "Wiki"
   button_text: "Click Here"
   image: "/img/resource_images/Atlassian_Confluence_Logo.svg"
-  image_width: 500
-  description: "asldhf asdlkfh adhsfh aksldfhklha kfaklsdhf klahsdkjlf "
+  image_height: 500
   url: "https://wiki.rit.edu/display/EVT/"
+  description: "Team wiki for information about the team and project information."
 
-- name: "Resource Access Form (Swipe/Fileshare/Wiki)"
+- name: "Access Form"
   button_text: "Request Access"
   image: "/img/resource_images/form_icon.png"
   image_pos: "left"
-  image_width: 150
+  image_height: 150
   url: "http://goo.gl/jv3Ais"
+  description: "Form for swipe access, newsletter, wiki access, fileshare access."
 
 
 - name: "Fileshare"
   button_text: "How to Connect"
   image: "/img/resource_images/folder.png"
-  image_width: 150
-  url:
+  image_height: 150
+  url: "https://wiki.rit.edu/display/EVT/EVT-Share"
+  description: "Samba share for accessing shared team resources."
 
 - name: "BitBucket"
   button_text: "Click Here"
   image: "/img/resource_images/bitbucket.svg"
-  image_width: 150
-  image_pos: left
+  image_height: 150
   url: https://bitbucket.org/evt
+  description: "Firmware code repositories."
 
 
 - name: "Github"
   button_text: "Click Here"
   image: "/img/resource_images/octocat.svg"
-  image_width: 180
+  image_height: 150
   url: https://github.com/RIT-EVT
+  description: "Software code repositories."
 
 - name: "Jenkins"
   button_text: "Click Here"
   url: http://evt-jenkins.rit.edu
   image: "/img/resource_images/jenkins.png"
-  image_pos: "left"
-  image_width: 150
+  image_height: 150
+  description: "Countinouts integration server."
+
+
