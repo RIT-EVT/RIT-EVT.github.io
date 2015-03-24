@@ -15,8 +15,8 @@
 
 .panel {
   background: #ECF0F1;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  //padding-top: 0.5em;
+  //padding-bottom: 0.5em;
   box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
   margin-bottom: 2em;
   h2 {
@@ -452,12 +452,13 @@
 
 
 .picture {
-    max-height: 200px;
+    height: 274px;
+    width: 274px;
 }
 
 .resource-container {
-  //display: inline;
-  margin:  0 0 20px 0;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .resource-title {
@@ -520,4 +521,19 @@
 }
 @media(min-width:992px){  //med
 
+}
+
+.card-container{
+  max-width: 275px;
+  margin: 2%;
+  display: inline-block;
+}
+
+.card-description{
+
+}
+
+.centered {
+  margin-left: 5%;
+  margin-right: 5%;
 }

@@ -3,15 +3,12 @@ layout: default
 ---
 
 <h1>Officers</h1>
-
+<div class="centered resource-container">
   {% for officer in site.data.officers %}
-<div class="section group">
-  <div class="col span_1_of_2">
-    <div class="panel section group">
-      <div class="col span_1_of_2">
-        <img class="picture"src={{officer.img}}>
-      </div>
-      <div class="officer-info col span_1_of_2">
+  <div class="panel card-container">
+    <div class="resource-content">
+      <img class="picture"src={{officer.img}}>
+      <div class="card-description">
         <h2>{{officer.name}}</h2>
         <h3>{{officer.position}}</h3>
       </div>
