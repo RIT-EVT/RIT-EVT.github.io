@@ -2,7 +2,7 @@
 - name: Mechanical
   img: "/img/color-transparent-logo.svg"
   lead: James Hertzel
-  lead_img: "/img/members/JamesHertzel.JPG"
+  lead_img: "/img/members/JamesHertzel.jpg"
   description: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
    Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
@@ -28,7 +28,7 @@
 - name: Electrical
   img: "/img/color-transparent-logo.svg"
   lead: Joshua Jones
-  lead_img: "/img/members/JoshuaJones.JPG"
+  lead_img: "/img/members/JoshuaJones.jpg"
   description: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
    Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
@@ -54,7 +54,7 @@
 - name: Firmware
   img: "/img/color-transparent-logo.svg"
   lead: Derek Gutheil
-  lead_img: "/img/members/DerekGutheil.JPG"
+  lead_img: "/img/members/DerekGutheil.jpg"
   description: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
    Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
@@ -80,7 +80,7 @@
 - name: Software
   img: "/img/color-transparent-logo.svg"
   lead: Ben Kantor
-  lead_img: "/img/members/BenKantor.JPG"
+  lead_img: "/img/members/BenKantor.jpg"
   description: >
    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
    Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
