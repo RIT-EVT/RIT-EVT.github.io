@@ -4,95 +4,93 @@
   lead: James Hertzel
   lead_img: "/img/members/JamesHertzel.jpg"
   description: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
-   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
-   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
-   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
-   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
-   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
-   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
-   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
-   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
-   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+    The mechanical team designs and manufactures the drivetrain components for 
+    the electric superbike. We use tools such as Solidworks and Creaform 3D 
+    scanning technology to model and conduct simulations of our designs. We are 
+    responsible for the assembly and maintenance of the motorcycle. We are 
+    currently scanning the whole motorcycle by individual components to create 
+    an accurate CAD model. This model will be used to determine the mounting 
+    position for the motor and batteries by using the mounting holes on the OEM 
+    frame. The mechanical team is also currently fabricating the parts for 
+    custom battery modules. The battery containment boxes have been engineered 
+    to withstand the abuse of high speed racing and collision. 
   current_projects:
     - coming soon
   past_projects:
     - coming_soon
   members:
-    - John Doe
-    - Guy Faux
-    - Jane Doe
-    - Gal Faux
+    - Jeff Botticello
+    - Joe Repass
+    - Chris Hand
+    - Nick Flumerfeldt
+    - Sydney Lizarazo
+    - Ethan Marsh
+    - Joe Schmitt
+    - Chris Shwarzer
+    - Drake Wilson
+    - Tyler Roy
 
 - name: Electrical
   img: "/img/color-transparent-logo.svg"
   lead: Joshua Jones
   lead_img: "/img/members/JoshuaJones.jpg"
   description: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
-   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
-   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
-   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
-   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
-   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
-   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
-   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
-   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
-   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+    The Electrical team is composed of several sub-teams working to develop new 
+    technologies for use on any of our electric vehicle platforms. Collectively, 
+    we cover a wide variety of applications including battery management, data 
+    acquisition and performance analysis. 
   current_projects:
     - coming soon
   past_projects:
     - coming_soon
   members:
-    - John Doe
-    - Guy Faux
-    - Jane Doe
-    - Gal Faux  
+    - Jake Allison
+    - Alexander Young
+    - Murali Prasad
+    - Ryan Thorna
+    - Lincoln Glauser
+    - Will McCaffrey
+    - Trevor Brudz
+    - Andrew Gordon
+    - Jeigh Almonte
 
 - name: Firmware
   img: "/img/color-transparent-logo.svg"
   lead: Derek Gutheil
   lead_img: "/img/members/DerekGutheil.jpg"
   description: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
-   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
-   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
-   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
-   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
-   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
-   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
-   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
-   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
-   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+    The Firmware team is responsible for the design and implementation of all 
+    of the software on our vehicles. We design a wide variety of features with 
+    a variety of platforms and programming languages, from drivers on our BMS 
+    to the network interfaces on our Super Bike. We work closely with the 
+    Electrical team on the design of many of our custom boards, and the 
+    Software team to integrate all of our controllers with the many external 
+    services that we use. Our current members are from broad backgrounds 
+    including CE, EE, CS, SE, and more. We are constantly taking on projects 
+    that involve all skill levels, and are more than willing to help teach 
+    anyone who wants to learn. We exist to get people more involved and 
+    knowledgeable about electric vehicle technology and firmware development.
   current_projects:
     - coming soon
   past_projects:
     - coming_soon
   members:
-    - John Doe
-    - Guy Faux
-    - Jane Doe
-    - Gal Faux
+    - Matthew Behlke
+    - Wheeler Law
+    - James Moretti
+    - Kevin Alexandre
+    - Garret Edwards
+    - Mark Swamy
 
 - name: Software
   img: "/img/color-transparent-logo.svg"
   lead: Ben Kantor
   lead_img: "/img/members/BenKantor.jpg"
   description: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   Quisque vel enim tellus. Maecenas a neque quis ipsum viverra ultricies.
-   Vestibulum massa metus, vehicula eu sem et, posuere consectetur lorem. 
-   Quisque aliquet enim eu ante lacinia, et cursus ante tincidunt. Cras ac
-   risus fringilla, consequat augue fringilla, luctus sem. Donec iaculis
-   tortor ac metus laoreet fringilla. Phasellus elementum gravida ligula a pretium.
-   Maecenas congue enim vestibulum blandit sagittis. Nullam euismod aliquet ex.
-   Nulla quis leo ut arcu gravida pretium. Donec sed sapien sapien. Mauris facilisis
-   euismod quam, non ultricies ipsum gravida quis. In luctus volutpat turpis, a
-   tempor neque effcitur ut. Ut non ipsum sed augue suscipit elementum id in ipsum.
-   Curabitur aliquam elit vitae eros tincidunt, sit amet blandit leo scelerisque.
+    The software team designs and develops various software applications to 
+    support the vehicles that the team is working on. Currently we are working
+    on a digital dashboard for the Super Bike and web application to display 
+    realtime sensor data from different vehicles.
   current_projects:
     - coming soon
   past_projects:
