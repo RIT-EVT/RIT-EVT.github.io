@@ -26,6 +26,7 @@ layout: default
     <p class="textbox">{{team.description}}</p>
   </div>
   <div class="col span_2_of_7">
+
     <div class="panel small-card">
       <div class="resource-content">
         <img class="small-portrait-img"src={{team.lead_img}}>
@@ -35,6 +36,19 @@ layout: default
         </div>
       </div>
     </div>
+
+    <div class="panel small-card">
+      <div class="textbox">
+        <h3>Team Members:</h3>
+        <ul class="no-bullet-list">
+        {% for member in team.members %}
+          <li>{{member}}</li>
+          <br/>
+        {% endfor %}
+        </ul>
+      </div>      
+    </div>
+
   </div>
 
 </div>

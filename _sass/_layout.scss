@@ -18,7 +18,7 @@
   //padding-top: 0.5em;
   //padding-bottom: 0.5em;
   box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   h2 {
     color: #F36E21;
   }
@@ -568,13 +568,13 @@
 }
 
 .small-card{
-  max-width: 250px;
-  
+  width: 215px;
+  vertical-align: top;
   display: inline-block;
   @media(min-width:609px){
-    max-width:150px; 
+    width:150px; 
   } @media(min-width:1000px){
-    max-width: 250px;
+    width: 215px;
   }
 }
 
@@ -593,10 +593,8 @@
 
 .medium-img {
   width: 1024px;
-  //height: 325px;
   @media(max-width:600px){
     width: 463px;
-    //height: 162.5px;
   }
 }
 
@@ -619,4 +617,8 @@
 
 .textbox {
   padding: 0.75em;
+}
+
+.no-bullet-list {
+  list-style-type: none;
 }
