@@ -1,6 +1,6 @@
 ---
 - name: Mechanical
-  img: "/img/color-transparent-logo.svg"
+  img: "/img/teams/MechanicalTeam.jpg"
   lead: James Hertzel
   lead_img: "/img/members/JamesHertzel.jpg"
   description: >
@@ -31,7 +31,7 @@
     - Tyler Roy
 
 - name: Electrical
-  img: "/img/color-transparent-logo.svg"
+  img: "/img/teams/ElectricalTeam.png"
   lead: Joshua Jones
   lead_img: "/img/members/JoshuaJones.jpg"
   description: >
@@ -55,7 +55,7 @@
     - Jeigh Almonte
 
 - name: Firmware
-  img: "/img/color-transparent-logo.svg"
+  img: "/img/teams/FirmwareTeam.jpg"
   lead: Derek Gutheil
   lead_img: "/img/members/DerekGutheil.jpg"
   description: >
@@ -83,7 +83,7 @@
     - Mark Swamy
 
 - name: Software
-  img: "/img/color-transparent-logo.svg"
+  img: "/img/teams/SoftwareTeam.jpg"
   lead: Ben Kantor
   lead_img: "/img/members/BenKantor.jpg"
   description: >
