@@ -27,7 +27,7 @@
   button_text: "How to Connect"
   image: "/img/resource_images/folder.png"
   image_height: 150
-  url: "https://wiki.rit.edu/display/EVT/EVT-Share"
+  url: "https://wiki.rit.edu/display/EVT/How+to+connect+to+EVT-Share"
   description: "Samba share for accessing shared team resources."
 
 - name: "BitBucket"
