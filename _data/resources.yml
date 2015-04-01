@@ -50,6 +50,6 @@
   url: http://evt-jenkins.rit.edu
   image: "/img/resource_images/jenkins.png"
   image_height: 150
-  description: "Countinouts integration server."
+  description: "Countinuous integration server."
 
 
