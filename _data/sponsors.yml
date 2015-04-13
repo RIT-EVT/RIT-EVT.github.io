@@ -50,9 +50,9 @@
   website: "http://hollywoodelectrics.com"
 
 - name: "Country Rode Motorwerks"
-  image_size: 250
+  image_size: 150
   level: 1
-  image: "/img/sponsor_logo/CountryRodeMotowerks.png"
+  image: "/img/sponsor_logo/CountryRodeMotowerks.jpg"
   website: "http://www.countryrode.com"
 
 - name: "Jon Allen"
