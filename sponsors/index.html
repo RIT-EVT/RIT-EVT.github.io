@@ -8,16 +8,16 @@ layout: default
         {% for s in site.data.sponsors %}
         {% if s.level >= 3 %}
 
-            <div class="sponsor-large">
-                <!--h3>{{s.name}}</h3-->
-                {% if s.website %}
-                <a href="{{ s.website }}" target="_blank">
-                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
-                </a>
-                {% else %}
-                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
-                {% endif %}
-            </div>
+        <div class="sponsor-large">
+            <!--h3>{{s.name}}</h3-->
+            {% if s.website %}
+            <a href="{{ s.website }}" target="_blank">
+                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em/>
+            </a>
+            {% else %}
+            <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em/>
+            {% endif %}
+        </div>
 
         {% endif %}
         {% endfor %}
@@ -28,16 +28,24 @@ layout: default
         {% for s in site.data.sponsors %}
         {% if s.level == 2 %}
 
-            <div class="sponsor-med">
-                <!--h3>{{s.name}}</h3-->
-                {% if s.website %}
-                <a href="{{ s.website }}" target="_blank">
-                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
-                </a>
+        <div class="sponsor-med">
+            <!--h3>{{s.name}}</h3-->
+            {% if s.website %}
+            <a href="{{ s.website }}" target="_blank">
+                {% if s.image %}
+                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em/>
                 {% else %}
-                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                <h1>{{s.title}}</h1>
                 {% endif %}
-            </div>
+            </a>
+            {% else %}
+            {% if s.image %}
+            <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em/>
+            {% else %}
+            <h1>{{s.title}}</h1>
+            {% endif %}
+            {% endif %}
+        </div>
 
         {% endif %}
         {% endfor %}
@@ -48,16 +56,24 @@ layout: default
         {% for s in site.data.sponsors %}
         {% if s.level == 1 %}
 
-            <div class="sponsor-small">
-                <!--h3>{{s.name}}</h3-->
-                {% if s.website %}
-                <a href="{{ s.website }}" target="_blank">
-                    <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
-                </a>
+        <div class="sponsor-small">
+            <!--h3>{{s.name}}</h3-->
+            {% if s.website %}
+            <a href="{{ s.website }}" target="_blank">
+                {% if s.image %}
+                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em/>
                 {% else %}
-                <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em />
+                <h1>{{s.title}}</h1>
                 {% endif %}
-            </div>
+            </a>
+            {% else %}
+            {% if s.image %}
+            <img src="{{ s.image }}" alt="{{s.name}} logo" width={{s.image_size}}em/>
+            {% else %}
+            <h1>{{s.title}}</h1>
+            {% endif %}
+            {% endif %}
+        </div>
 
         {% endif %}
         {% endfor %}

@@ -60,4 +60,20 @@
   level: 1
   image: "/img/sponsor_logo/jonallen.png"
 
+- name: "TCS Industries"
+  title: "TCS Industries"
+  level: 1
+  website: "http://www.tcsindustries.com/"
+
+- name: "Anderson Power"
+  image_size: 250
+  level: 1
+  image: "/img/sponsor_logo/anderson_power.jpg"
+  website: "http://www.andersonpower.com"
+
+- name: "Brinkman Lab"
+  title: "Brinkman Lab"
+  level: 1
+  website: "https://www.rit.edu/kgcoe/ise/brinkman/"
+
 ---
