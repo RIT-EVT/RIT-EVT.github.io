@@ -1,11 +1,17 @@
 ---
+- name: "Slack"
+  button_text: "Click Here"
+  image: "/img/resource_images/slack.png"
+  image_height: 300
+  url: "https://ritevt.slack.com/"
+  description: "Team Chat Client"
+
 - name: "Jira"
   button_text: "Click Here"
   image: "/img/resource_images/JIRA_logo.svg"
   image_height: 300
   url: "https://evt-jira.rit.edu"
   description: "Issue tracking project management software."
-
 
 - name: "Wiki"
   button_text: "Click Here"
