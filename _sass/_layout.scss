@@ -622,3 +622,12 @@
 .no-bullet-list {
   list-style-type: none;
 }
+
+#banner{
+  text-align: center;
+  margin-top: 1.5em;
+  background: #FFF59D;
+  a {
+    text-decoration: underline;
+  }
+}

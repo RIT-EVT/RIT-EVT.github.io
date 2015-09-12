@@ -1,4 +1,11 @@
 ---
+- name: "Mailing List"
+  button_text: "Click Here"
+  image: "/img/mail59.svg"
+  image_height: 150
+  url: "http://eepurl.com/4qRBj"
+  description: "Sign up for the team mailing list"
+
 - name: "Slack"
   button_text: "Click Here"
   image: "/img/resource_images/slack.png"
