@@ -14,7 +14,9 @@ layout: default
         <div class="resource-content">
             {% if r.image %}
             <div class=" resource-img-container" style="width: {{r.image_height}}px;">
-                <img class="resource-img" src="{{ r.image }}" >
+                <a href="{{ r.url }}">
+                    <img class="resource-img" src="{{ r.image }}" >
+                </a>
             </div>
             {% endif %}
             <div class="resource-desc">
