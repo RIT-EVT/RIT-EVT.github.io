@@ -11,3 +11,4 @@ url: "http://evt.rit.edu" # the base hostname & protocol for your site
 markdown: kramdown
 
 paginate: 5
+gems: [jekyll-paginate]
