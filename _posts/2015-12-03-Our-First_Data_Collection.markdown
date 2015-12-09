@@ -6,7 +6,7 @@ categories: website
 author: Derek Gutheil
 ---
 
-![alt text][bike photo]
+[![alt text][bike photo]][article link]
 
 <br/>
 
@@ -43,3 +43,4 @@ Lead Firmware Engineer
 
 [end photo]: /img/blog-posts/Our_First_Data_Collection/recording_wrap_up.jpg "End of the day"
 [end photo full]: /img/blog-posts/Our_First_Data_Collection/recording_wrap_up_full.jpg
+[article link]: {% post_url 2015-12-03-Our-First_Data_Collection %}
