@@ -1,4 +1,4 @@
-# logo sizes: 0 - none, 1 - small, 2 - med, 3 - large
+# logo sizes: 0 - none, 1 - Kilowatt, 2 - Megawatt, 3 - Gigawatt
 ---
 
 - name: "Solidworks"
@@ -20,17 +20,23 @@
   website: "https://www.sg.rit.edu/"
 
 - name: "Rochester Gas and Electric"
-  image_size: 300
+  image_size: 250
   level: 3
   image: "/img/sponsor_logo/RGE.png"
   website: "http://www.rge.com/"
+
+- name: "Powerohm"
+  image_size: 500
+  level: 3
+  image: "/img/sponsor_logo/powerohm.png"
+  website: "http://www.powerohm.com/"
 
 - name: "General Electric"
   image_size: 150
   level: 2
   image: "/img/sponsor_logo/General_Electric_logo.svg"
   website: "http://www.generalelectric.com/"
-  
+
 - name: "AllCell"
   image_size: 200
   level: 2
@@ -75,5 +81,17 @@
   title: "Brinkman Lab"
   level: 1
   website: "https://www.rit.edu/kgcoe/ise/brinkman/"
+
+- name: "Omron"
+  image_size: 250
+  level: 1
+  image: "/img/sponsor_logo/OMRON.png"
+  website: "http://www.components.omron.com/"
+
+- name: "Powerex"
+  image_size: 250
+  level: 1
+  image: "/img/sponsor_logo/powerex.png"
+  website: http://www.pwrx.com/
 
 ---
