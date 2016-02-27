@@ -1,8 +1,8 @@
 ---
 - name: Mechanical
   img: "/img/teams/MechanicalTeam.jpg"
-  lead: James Hertzel
-  lead_img: "/img/members/JamesHertzel.jpg"
+  lead: Jeff Botticello
+  lead_img: "/img/members/JeffBotticello.jpg"
   description: >
     The mechanical team designs and manufactures the drivetrain components for 
     the electric superbike. We use tools such as Solidworks and Creaform 3D 
@@ -19,21 +19,17 @@
   past_projects:
     - coming_soon
   members:
-    - Jeff Botticello
-    - Joe Repass
     - Chris Hand
-    - Nick Flumerfeldt
     - Sydney Lizarazo
-    - Ethan Marsh
-    - Joe Schmitt
     - Chris Shwarzer
     - Drake Wilson
-    - Tyler Roy
+    - Max Bourgeois
+    - Joe Payne
 
 - name: Electrical
   img: "/img/teams/ElectricalTeam.png"
-  lead: Joshua Jones
-  lead_img: "/img/members/JoshuaJones.jpg"
+  lead: Derek Gutheil
+  lead_img: "/img/members/DerekGutheil.jpg"
   description: >
     The Electrical team is composed of several sub-teams working to develop new 
     technologies for use on any of our electric vehicle platforms. Collectively, 
@@ -44,20 +40,32 @@
   past_projects:
     - coming_soon
   members:
-    - Jake Allison
     - Alexander Young
-    - Murali Prasad
     - Ryan Thorna
-    - Lincoln Glauser
-    - Will McCaffrey
+    - Jake Allison
+    - Will McCaffery
     - Trevor Brudz
+    - Shane Snover
+    - Murali Prasad
     - Andrew Gordon
-    - Jeigh Almonte
+    - Greg Malanga
+    - Isaac Witlin
+    - Charles Rudkin
+    - Sam Carlson
+    - Ben Stewart
+    - Kevin Blakeslee
+    - Andrew Pfeil
+    - Matthew Glazer
+    - Dan Mitchel
+    - Blake Cymerys
+    - Josh Drezner
+    - Sam Bruner
+    - Jeremiah Onwubuya
 
 - name: Firmware
   img: "/img/teams/FirmwareTeam.jpg"
-  lead: Derek Gutheil
-  lead_img: "/img/members/DerekGutheil.jpg"
+  lead: Matt Behlke
+  lead_img: "/img/new_evt_logo.svg"
   description: >
     The Firmware team is responsible for the design and implementation of all 
     of the software on our vehicles. We design a wide variety of features with 
@@ -75,26 +83,7 @@
   past_projects:
     - coming_soon
   members:
-    - Matthew Behlke
-    - Wheeler Law
     - James Moretti
-    - Kevin Alexandre
     - Garret Edwards
-    - Mark Swamy
-
-- name: Software
-  img: "/img/teams/SoftwareTeam.jpg"
-  lead: Ben Kantor
-  lead_img: "/img/members/BenKantor.jpg"
-  description: >
-    The software team designs and develops various software applications to 
-    support the vehicles that the team is working on. Currently we are working
-    on a digital dashboard for the Super Bike and web application to display 
-    realtime sensor data from different vehicles.
-  current_projects:
-    - coming soon
-  past_projects:
-    - coming_soon
-  members:
-    - Joseph DeSimpliciis
-    - Geoff Webster
+    - Wheeler Law
+    - Derek Gutheil
