@@ -1,5 +1,18 @@
 # logo sizes: 0 - none, 1 - Kilowatt, 2 - Megawatt, 3 - Gigawatt
 ---
+- name: "Altium"
+  image_size: 300
+  level: 3
+  image: "/img/sponsor_logo/altium.jpg"
+  website: http://www.altium.com/
+
+- name: "Keysight Technologies"
+  image_size: 300
+  level: 3
+  image: "/img/sponsor_logo/keysight.png"
+  website: "http://www.keysight.com/"
+
+- name: "Keysight Technologies"
 
 - name: "Solidworks"
   image_size: 300
