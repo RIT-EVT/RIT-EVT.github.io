@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: project
 title:  "Not Your Dad's E-Bike"
-date:   2016-2-27 12:03:00
 categories: website
 author: Blake Cymerys and Dan Shapiro 
 ---
-[![alt text][header]][project link]
+![alt text][header]
 
 
 ### Team members: 
@@ -62,7 +61,6 @@ The above rendering depicts the end goal of Not Your Dad’s E-Bike.
 </center>
 
 [header]: /img/projects/nydeb/header2.jpg
-[project link]: {% post_url 2016-2-29-nydeb %}
 
 [box]: /img/projects/nydeb/box.jpg
 [members]: /img/projects/nydeb/members.png

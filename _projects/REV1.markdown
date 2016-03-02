@@ -1,11 +1,10 @@
 ---
-layout: post
+layout: project
 title:  "REV1 Superbike"
-date:   2016-2-27 12:03:00
 categories: website
 author: Sydney Lizarazo
 ---
-[![alt text][rev1]][rev1 link]
+![alt text][rev1]
 
 REV1
 ====================
@@ -23,5 +22,4 @@ The current sub-frame houses the motor controller, and the design served its pur
 
 In the present design, the motor drives the rear wheel through a jack-shaft. After the first race, the team realized the jack-shaft was over-heating and stripping the grease off of the chain, preventing the chain from operating properly. In order to avoid this issue, the team is working on relocating the motor so that it is directly in line with the rear wheel, eliminating the need for a jack-shaft. 
 
-[rev1]: /img/projects/rev1/superbike5.jpg "REV1"
-[rev1 link]: {% post_url 2016-2-29-REV1 %}
+[rev1]: /img/projects/rev1/superbike5.jpg

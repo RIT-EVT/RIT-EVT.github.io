@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: project
 title:  "Battery Lickers E-Bike"
-date:   2016-2-27 10:03:00
 categories: website
 author: Daniel Mitchell
 ---

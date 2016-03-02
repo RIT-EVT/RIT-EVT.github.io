@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: project
 title:  "Low Voltage Cutoff Circuit"
-date:   2016-2-27 9:03:00
 categories: website
 author: Daniel Mitchell
 ---
 
-##Low Voltage Cutoff
+## Low Voltage Cutoff
 
 The LVCC (low voltage cutoff circuit) is a project that began to fill the need of an added safety measure to the electric bicycles. Batteries can become unstable and dangerous at low voltages, so a way to measure and respond to that is highly recommended. The motor controller that came with the e-bike kits has a built in low voltage cutoff, but that is a measure across three different four-celled batteries connected in series. If one cell goes bad in one battery, it may not be visible when looking at all 12 cells at once. 
 
