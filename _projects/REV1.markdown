@@ -12,7 +12,7 @@ The RIT Electric Vehicle 1, or REV1, is the pinnacle of the Electric Vehicle Tea
  
 REV1 Improvements
 =====================
-Currently, the team is working on improving mechanical aspects of REV1. The two projects, sub-frame redesign and motor relocation, will improve the performance and prevent further issues from arising with the current design.
+Currently, the team is working on improving mechanical aspects of REV1 based on observations from the first race in July 2015. The two projects, sub-frame redesign and motor relocation, will improve the performance and prevent further issues from arising with the current design.
 
 ### Sub-Frame Redesign
 
