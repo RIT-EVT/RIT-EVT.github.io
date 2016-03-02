@@ -7,6 +7,7 @@
   margin: 0px;
 }
 
+/*
 .col {
   display: block;
   float: left;
@@ -26,6 +27,7 @@
   }
 
 }
+*/
 /*  GROUPING  */
 .group:before,
 .group:after {
@@ -40,6 +42,7 @@
 }
 
 /*  GRID OF THREE  */
+/*
 .span_3_of_3 {
   width: 98%;
 }
@@ -48,17 +51,19 @@
 }
 .span_1_of_3 {
   width: 30.26%;
-}
+}*/
 
 /*  GRID OF TWO  */
+/*
 .span_2_of_2 {
   width: 100%;
 }
 .span_1_of_2 {
   width: 47.2%;
-}
+}*/
 
 /*  GRID OF SEVEN  */
+/*
 .span_7_of_7 {
   width: 100%;
 }
@@ -94,7 +99,7 @@
 }
 
 
-
+*/
 .sidebar {
   background: #ECF0F1;
   position: fixed;
@@ -350,10 +355,10 @@
   overflow: auto;
   z-index: -1;
   float: right;
-  h1,h2,h3 {
-    color: #F36E21;
-    font-weight: bold;
-  }
+//  h1,h2,h3 {
+//    color: #F36E21;
+ //   font-weight: bold;
+//}
 }
 
 .page-heading {
@@ -458,7 +463,7 @@
   padding: 3%;
 
 }
-
+/*
 .btn {
   background-color: #F58120;
   border-radius: 5px;
@@ -483,7 +488,7 @@
 .btn:visited {
   color: #ffffff;
 }
-
+*/
 
 .picture {
     height: 274px;

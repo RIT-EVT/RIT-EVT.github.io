@@ -12,3 +12,7 @@ markdown: kramdown
 
 paginate: 5
 gems: [jekyll-paginate]
+
+collections:
+  projects:
+    output: true
