@@ -107,4 +107,10 @@
   image: "/img/sponsor_logo/powerex.png"
   website: http://www.pwrx.com/
 
+- name: "Curbell Plastics"
+  image_size: 250
+  level: 1
+  image: "/img/sponsor_logo/curbellPlastics.jpg"
+  website: "http://www.curbellplastics.com/"
+
 ---
