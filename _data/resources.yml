@@ -13,12 +13,12 @@
   url: "https://ritevt.slack.com/"
   description: "Team Chat Client"
 
-- name: "Jira"
-  button_text: "Click Here"
-  image: "/img/resource_images/JIRA_logo.svg"
-  image_height: 300
-  url: "https://evt-jira.rit.edu"
-  description: "Issue tracking project management software."
+# - name: "Jira"
+#   button_text: "Click Here"
+#   image: "/img/resource_images/JIRA_logo.svg"
+#   image_height: 300
+#   url: "https://evt-jira.rit.edu"
+#   description: "Issue tracking project management software."
 
 - name: "Wiki"
   button_text: "Click Here"
@@ -27,13 +27,13 @@
   url: "https://wiki.rit.edu/display/EVT/"
   description: "Team wiki for information about the team and project information."
 
-- name: "Access Form"
-  button_text: "Request Access"
-  image: "/img/resource_images/form_icon.png"
-  image_pos: "left"
-  image_height: 150
-  url: "http://goo.gl/jv3Ais"
-  description: "Form for swipe access, newsletter, wiki access, fileshare access."
+# - name: "Access Form"
+#   button_text: "Request Access"
+#   image: "/img/resource_images/form_icon.png"
+#   image_pos: "left"
+#   image_height: 150
+#   url: "http://goo.gl/jv3Ais"
+#   description: "Form for swipe access, newsletter, wiki access, fileshare access."
 
 
 - name: "Fileshare"
