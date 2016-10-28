@@ -1,0 +1,143 @@
+
+/* 
+    Created on : 4 Jun, 2015, 10:12:47 PM
+    Author     : Design_mylife
+*/
+/** Full width master slider css**/
+.title_main{
+    color: #fff;
+    font-weight: 300;
+    font-size: 65px;
+    line-height: 65px;
+    text-transform: capitalize;
+}
+.sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.slide-btn{
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 13px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+.slide-btn.btn1{
+    color:  #fff;
+    border: 1px solid #fff;  
+}
+.slide-btn.btn1:hover{
+    color: #222;
+    background: #fff;
+}
+.slide-btn.btn2{
+    background: #4c779e;
+    border: 1px solid #4c779e;
+    color: #fff;
+}
+.slide-btn.btn2:hover{
+    opacity: 0.9;
+}
+.full-wid{
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+
+/***team slider****/
+.ms-staff-carousel{
+	max-width:1170px;
+	overflow: hidden;
+	margin: 25px auto;
+	position: relative;
+}
+
+.ms-staff-carousel .ms-view{
+	overflow:visible;
+	background-color: transparent;
+}
+
+.ms-staff-carousel .ms-nav-prev,
+.ms-staff-carousel .ms-nav-next {
+    background: url(../img/arrows.png) white no-repeat -7px -57px;
+    width: 35px;
+    height: 40px;
+    left: -35px;
+    margin-top: -17px;
+    box-shadow: 0px 1px 0px 0px rgb(190, 190, 190);
+    position: absolute;
+    top:50%;
+    cursor: pointer;
+}
+
+.ms-staff-carousel .ms-nav-next {
+	background-position: -6px -7px;
+	right:-35px;
+	left:auto;
+}
+
+.ms-staff-carousel .ms-staff-info{
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	max-width: 600px;
+	margin-top:30px;
+	min-height:220px;
+	color:#222222;
+}
+	.ms-staff-carousel .ms-staff-info h3{
+		font-weight: 300;
+		font-size: 22pt;
+		margin:0px;
+	}
+	
+	.ms-staff-carousel .ms-staff-info h4{
+		font-weight: 300;
+		color:#787878;
+		font-size: 15pt;
+		margin:3px;
+	}
+	
+	.ms-staff-carousel .ms-staff-info .email a{text-decoration: none; color:#3f95ab;}
+	.ms-staff-carousel .ms-staff-info.email,.ms-staff-info p {
+	    margin: 4px;
+	     font-size: 11pt;
+	}
+
+.ms-staff-carousel.ms-round .ms-slide-bgcont {
+	border-radius: 5000px;
+	border: solid 8px rgb(230, 230, 230);
+	margin: 0 -8px;
+}
+
+.ms-staff-carousel.ms-round .ms-nav-prev,
+.ms-staff-carousel.ms-round .ms-nav-next {
+    background-color:transparent;
+    box-shadow : none;
+    left:-45px;
+ }
+ 
+.ms-staff-carousel.ms-round .ms-nav-next {
+    left:auto;
+    right:-45px
+}
+.ms-socials{
+    margin-top: 15px;
+}
+.ms-socials li a{
+    width: 32px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #4c779e;
+  color: #fff;
+  display: block;
+}
+.ms-socials li a i{
+    display: block;
+}

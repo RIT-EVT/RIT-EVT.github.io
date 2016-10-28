@@ -1,0 +1,79 @@
+/*****************bootstrap tabs overrides*****************************/
+/*tabs*/
+
+.tabs .nav-tabs {
+    border-bottom: none;
+}
+.tabs .nav-tabs  li {
+    margin-bottom: 0;
+}
+.tabs .nav-tabs  li  a {
+    background: #f7f7f7;
+    margin-right: 2px;
+    border-left: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: none !important;
+   @include border-radius(0px);
+    padding: 12px 20px;
+    color: #6d6d6d;
+    position: relative;
+}
+.tabs .nav-tabs  li  a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    height: 3px;
+}
+.tabs .nav-tabs  li  a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+}
+.tabs .nav-tabs  li  a:hover {
+    border-color: #f7f7f7;
+}
+.tabs .nav-tabs > li > a .fa {
+    margin-right: 4px;
+}
+.tabs .nav-tabs  li.active  a {
+    color: $skincolor;
+    border-left-color: #eee;
+    border-right-color: #eee;
+    background: #fff;
+}
+.tabs .nav-tabs  li.active  a:after {
+    background: $skincolor;
+}
+.tabs .nav-tabs  li.active  a:before {
+    background: #fff;
+}
+.tabs .nav-tabs  li.active  a:hover {
+    border-bottom-color: #fff;
+}
+.tabs .tab-content {
+    padding: 15px 8px;
+    border: $default-border;
+    background: #fff;
+
+}
+.tab-content p{
+    overflow: hidden;
+}
+.tabs .tab-content:before,
+.tabs .tab-content:after {
+    content: " ";
+    display: table;
+}
+.tabs .tab-content:after {
+    clear: both;
+}
+.tabs .tab-content p:last-child {
+    margin-bottom: 0;
+}

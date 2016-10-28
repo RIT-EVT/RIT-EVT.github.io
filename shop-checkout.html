@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <title>RIT Electric Vehicle Team</title>
+        <meta name="description" content="HTML5 & CSS3">
+        <meta name="keywords" content="HTML5, CSS3, Theme,bootstrap3,clean design"> 
+
+        <!--bootstrap3 css-->
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!--ion icon fonts css-->
+        <link href="assets/icons/css/ionicons.css" rel="stylesheet">
+        <!--google  font family-->    
+        <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+        <!--flex slider css-->
+        <link href="assets/css/flexslider.css" rel="stylesheet">
+        <!--animated  css-->
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <!-- Base MasterSlider style sheet -->
+        <link rel="stylesheet" href="assets/master-slider/style/masterslider.css">
+
+        <!-- Master Slider Skin -->
+        <link href="assets/master-slider/skins/default/style.css" rel='stylesheet' type='text/css'>
+        <!--custom  css-->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+         <!--preloader-->
+        <div id="preloader"></div>
+        <!--preloader-->
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="ion-android-arrow-dropup-circle"></i></a>
+        <!--back to top end-->
+        <header class="header-main">
+            <div class="top-bar">
+
+                <div class="container">
+                    <ul class="info list-inline pull-left hidden-xs">
+                        <li><a href="#" class="hover-color"><i class="ion-ios-email-outline"></i> mail@domain.com</a></li>
+                        <li><i class="ion-iphone"></i> +91 (123) 456 78 90</li>
+                    </ul>  
+                    <div class="pull-right">
+                        <ul class="info list-inline">
+                            <li class="hidden-xs"><a href="#" class="hover-color">Wishlist (7)</a></li>
+                            <li class="hidden-xs"><a href="signup.html" class="hover-color">Create an account?</a></li>
+                            <li><a href="login.html" class="hover-color"><i class="ion-android-lock"></i> Login</a></li>
+                            <li class="dropdown cart-li"><a href="#" data-toggle="dropdown" class="dropdown-toggle hover-color"><i class="ion-bag"></i> Cart (4)</a>
+                                <ul class="dropdown-menu cart-dropdown">
+                                    <li>Your cart</li>
+                                    <li class="clearfix">                                       
+                                        <img src="assets/img/shop/p1.jpg" width="60" alt="" class="img-responsive">                                     
+                                        <div class="cart-desc">
+                                            <h5><a href="#">Product title</a></h5>
+                                            <span class="cart-item-price">
+                                                <em>$99.00</em> x 1
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="clearfix">                                     
+                                        <img src="assets/img/shop/p2.jpg" width="60" alt="">                                  
+                                        <div class="cart-desc">
+                                            <h5><a href="#">Product title</a></h5>
+                                            <span class="cart-item-price">
+                                                <em>$99.00</em> x 1
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li class="cart-footer">
+                                        <div class="row">
+                                            <div class="col-xs-6">
+                                                <a href="#" class="btn-first">View cart</a>
+                                            </div>
+                                            <div class="col-xs-6">
+                                                <a href="#" class="btn-last">Checkout</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="dropdown "><a href="#" data-toggle="dropdown" class="dropdown-toggle hover-color"> Eng.</a>
+                                <ul class="dropdown-menu lang-dropdown">
+                                    <li><a href="#">ENGLISH</a></li>
+                                    <li><a href="#">FRANCE</a></li>
+                                    <li><a href="#">GERMANY</a></li>
+                                    <li><a href="#">JAPANESE</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--container end-->
+            </div><!--topbar end-->
+            <div class="clearfix"></div>
+            <div class="navbar navbar-default sticky-nav sticky yamm" role="navigation">
+                <div class="search-form-nav">
+                    <div class="container">
+                        <form>
+                            <input type="text" class="form-control" placeholder="Type and hit enter">
+                            <span class="search-close">
+                                <i class="ion-ios-close"></i>
+                            </span>
+                        </form>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="pull-right">
+                        <div class="right-search">
+                            <span class="icon-search">
+                                <i class="ion-ios-search-strong"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="assets/img/logo-dark.png" class="img-responsive" alt=""></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class=" dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Home</a> 
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Home - Default</a></li>
+                                    <li><a href="home-master.html">Home - Master Slider <span class="badge">Hot</span></a></li>
+                                    <li><a href="home-animation.html">Home - Animations</a></li>
+                                    <li><a href="home-boxed.html">Home boxed</a></li><li><a href="home-onepage.html">One Page</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a tabindex="-1" href="#">Multi level menu </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"> menu level 2</a></li>
+                                            <li class="dropdown-submenu">
+                                                <a tabindex="-1" href="#">menu level 2 </a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="#"> menu level 3</a></li>
+                                                    <li><a href="#"> menu level 3</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Portfolio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio.html">Portfolio 3 col</a></li>
+                                    <li><a href="portfolio-masonry.html">Portfolio Masonry</a></li>
+                                    <li><a href="portfolio-full.html">Portfolio Full width</a></li>
+                                    <li><a href="portfolio-full-boxed.html">Full width boxed</a></li>                            
+                                    <li><a href="portfolio-single.html">Portfolio Single</a></li>
+                                </ul>
+                            </li>
+                            <li class=" dropdown">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog-full.html">Blog Full width</a></li>
+                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>  
+                                    <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                                    <li><a href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <!--mega menu-->
+                            <li class="dropdown yamm-fw active">
+                                <a href="#" class="dropdown-toggle js-activated" data-toggle="dropdown">More  <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="yamm-content">
+                                            <div class="row">
+
+                                                <div class="col-sm-3">
+                                                    <h3 class="heading">Pages 1</h3>
+                                                    <ul class="nav mega-vertical-nav">  
+                                                        <li><a href="about.html">About Us</a></li>
+                                                        <li><a href="contact.html">Contact Us</a></li>
+                                                        <li><a href="services.html">Services</a></li>
+                                                        <li><a href="our-team.html">Our Team</a></li>
+                                                        <li><a href="login.html">Login</a></li>
+                                                        <li><a href="signup.html">Sign up</a></li>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <h3 class="heading">Pages 2 </h3>
+                                                    <ul class="nav mega-vertical-nav">
+                                                        <li><a href="page-fullwidth.html">Full Width</a></li>
+                                                        <li><a href="page-leftbar.html">Left Sidebar</a></li>
+                                                        <li><a href="page-rightbar.html">Right Sidebar</a></li>
+                                                        <li><a href="faqs.html">Faqs</a></li>
+                                                        <li><a href="page-error.html">Error 404</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <h3 class="heading">Features</h3>
+                                                    <ul class="nav mega-vertical-nav">
+                                                        <li><a href="typography.html">Typography</a></li>
+                                                        <li><a href="shortcodes.html">Shortcodes</a></li>                              
+                                                        <li><a href="pricing.html">Pricing Tables</a></li>
+                                                        <li><a href="footer-option.html">Footer option</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <h3 class="heading">Shop</h3>
+                                                    <ul class="nav mega-vertical-nav">
+                                                        <li><a href="shop-default.html">Shop 3 columns</a></li><li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                                                        <li><a href="product-detail.html">Product Detail</a></li>                              
+                                                        <li><a href="shop-cart.html">Cart</a></li>
+                                                        <li><a href="shop-checkout.html">Checkout</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li> 
+
+                        </ul>
+
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container-->
+            </div><!--navigation end-->
+        </header><!--header main end-->   
+        <section id="content-region-3" class="padding-40 page-tree-bg">
+            <div class="container">
+                <h3 class="page-tree-text">
+                    Checkout
+                </h3>
+            </div>
+        </section><!--page tree end here-->
+        <div class="space-70"></div>
+
+        <div class="container">
+            <div class="checkout-top text-center">
+                <p class="lead">Returning Customer? <a href="#">Login <i class="ion-ios-arrow-right"></i></a></p>
+                <p class="lead">Have a coupon code? <a data-toggle="collapse" role="button" data-target="#coupon-collapse" aria-controls="coupon-collapse">Apply <i class="ion-ios-arrow-right"></i></a></p>
+                <div class="collapse" id="coupon-collapse">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <form>
+                                <input type="text" class="form-control" placeholder="Enter Coupon Code here">
+                                <button type="button" class="btn btn-lg btn-dark btn-block">Apply coupon</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!--checkout top end-->
+            <div class="space-70"></div>
+            <div class="shop-checkout">
+
+                <form role="form" class="checkout-form" id="checkoutForm" method="get" action="">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="heading-mini">Billing Details</h4>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="fname" placeholder="First Name*">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="lname" placeholder="Last Name*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="company" placeholder="Company">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" placeholder="Email Id*">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="phone" placeholder="Phone*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <select name="country" id="calc_shipping_country" class="form-control">
+                                            <option value="">Select a country…</option>
+                                            <option value="AX">Åland Islands</option><option value="AF">Afghanistan</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua and Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="PW">Belau</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BQ">Bonaire, Saint Eustatius and Saba</option><option value="BA">Bosnia and Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="VG">British Virgin Islands</option><option value="BN">Brunei</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo (Brazzaville)</option><option value="CD">Congo (Kinshasa)</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CW">CuraÇao</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island and McDonald Islands</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN" selected="selected">India</option><option value="ID">Indonesia</option><option value="IR">Iran</option><option value="IQ">Iraq</option><option value="IM">Isle of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="CI">Ivory Coast</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Laos</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao S.A.R., China</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="KP">North Korea</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PS">Palestinian Territory</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="QA">Qatar</option><option value="IE">Republic of Ireland</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russia</option><option value="RW">Rwanda</option><option value="ST">São Tomé and Príncipe</option><option value="BL">Saint Barthélemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts and Nevis</option><option value="LC">Saint Lucia</option><option value="SX">Saint Martin (Dutch part)</option><option value="MF">Saint Martin (French part)</option><option value="PM">Saint Pierre and Miquelon</option><option value="VC">Saint Vincent and the Grenadines</option><option value="SM">San Marino</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia/Sandwich Islands</option><option value="KR">South Korea</option><option value="SS">South Sudan</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard and Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syria</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad and Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks and Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom (UK)</option><option value="US">United States (US)</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VA">Vatican</option><option value="VE">Venezuela</option><option value="VN">Vietnam</option><option value="WF">Wallis and Futuna</option><option value="EH">Western Sahara</option><option value="WS">Western Samoa</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option>      
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <select name="state" id="calc_shipping_state" class="form-control">
+                                            <option value="">Select a state…</option>
+                                            <option value="AP">Andhra Pradesh</option><option value="AR">Arunachal Pradesh</option><option value="AS">Assam</option><option value="BR">Bihar</option><option value="CT">Chhattisgarh</option><option value="GA">Goa</option><option value="GJ">Gujarat</option><option value="HR">Haryana</option><option value="HP">Himachal Pradesh</option><option value="JK">Jammu and Kashmir</option><option value="JH">Jharkhand</option><option value="KA">Karnataka</option><option value="KL">Kerala</option><option value="MP">Madhya Pradesh</option><option value="MH">Maharashtra</option><option value="MN">Manipur</option><option value="ML">Meghalaya</option><option value="MZ">Mizoram</option><option value="NL">Nagaland</option><option value="OR">Orissa</option><option value="PB">Punjab</option><option value="RJ">Rajasthan</option><option value="SK">Sikkim</option><option value="TN">Tamil Nadu</option><option value="TS">Telangana</option><option value="TR">Tripura</option><option value="UK">Uttarakhand</option><option value="UP">Uttar Pradesh</option><option value="WB">West Bengal</option><option value="AN">Andaman and Nicobar Islands</option><option value="CH">Chandigarh</option><option value="DN">Dadar and Nagar Haveli</option><option value="DD">Daman and Diu</option><option value="DL">Delhi</option><option value="LD">Lakshadeep</option><option value="PY">Pondicherry (Puducherry)</option>        
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="zipcode" placeholder="Postcode/Zip*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="address" placeholder="Full Address*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <a role="button" class="create-account" data-toggle="collapse" data-target="#create-account" aria-controls="create-account">
+                                            Create your Account?
+                                        </a>
+                                        <div class="space-20"></div>
+                                        <div class="collapse" id="create-account">
+                                            <input type="password" class="form-control" name="password" placeholder="Create Password">
+                                            <div class="space-10"></div>
+                                            <input type="password" class="form-control" name="confirm_password" placeholder="Repeat Password">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Notes about your order" rows="5"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--checkout col left end-->
+                        <div class="col-md-6">
+                            <h4 class="heading-mini">Your Order</h4>
+                            <div class="table-responsive">
+                                <table id="shopping-cart-table" class="shopping-cart-table table table-bordered table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th class="td-name">Product Name</th>
+
+                                            <th class="td-total">Subtotal</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="td-images">
+                                                <a href="#" class="product-image">
+                                                    <img class="replace-2x" src="assets/img/shop/p2.jpg" alt="" title="" width="70" height="70">
+                                                </a>
+                                            </td>
+                                            <td class="td-name">
+                                                <h4 class="product-name">
+                                                    <a href="#">Nick Ink Pen</a>
+                                                </h4>
+                                            </td>
+
+                                            <td class="td-total">
+                                                <div class="price">$750.00</div>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td class="td-images">
+                                                <a href="shop-product-view.html" class="product-image">
+                                                    <img class="replace-2x" src="assets/img/shop/p3.jpg" alt="" title="" width="70" height="70">
+                                                </a>
+                                            </td>
+                                            <td class="td-name">
+                                                <h4 class="product-name">
+                                                    <a href="shop-product-view.html">Nick Ink Pen full set</a>
+                                                </h4>
+                                            </td>
+
+                                            <td class="td-total">
+                                                <div class="price">$750.00</div>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table><!-- .shopping-cart-table -->
+                            </div>
+                            <div class="space-30"></div>
+                            <ul class="list-unstyled cart-totals">
+                                <li class="cart-subtotal">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <span>Subtotal</span>
+                                        </div>
+                                        <div class="col-xs-6 text-right">
+                                            <span>$1500.00</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="shipping">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <span>Shipping</span>
+                                            <div class="space-20"></div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="list-unstyled shipping-method">
+                                                <li class="clearfix">
+                                                    <div class="iradio_square-gray" style="position: relative;"><input type="radio" name="icheck" checked="" id="domestic" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div><label for="domestic">Domestic <span class="amount">$10.00</span></label>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="iradio_square-gray" style="position: relative;"><input type="radio" name="icheck" id="international" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div><label for="international">International <span class="amount">$20.00</span></label>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="iradio_square-gray" style="position: relative;"><input type="radio" name="icheck" id="pickup" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div><label for="pickup">Pickup (Free)</label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li><!--shipping-->
+                               
+                                <li class="total-values">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            Total
+                                        </div>
+                                        <div class="col-xs-6 text-right">
+                                            $1500.00
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="space-30"></div>
+                            <h4 class="heading-mini"></h4>
+                            <ul class="payment-methods list-unstyled">
+                                <li>
+                                    <input type="radio" name="paymentmethod" id="cheque" checked class="iradio_square-gray"><label for="cheque"> Cheque Payments</label>
+                                    <br>
+                                    <span>
+                                        Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                                    </span>
+                                </li>
+                                <li>
+                                    <input type="radio" name="paymentmethod" id="paypal" class="iradio_square-gray"><label for="paypal"> Paypal <img src="assets/img/shop/paypal.jpg" alt="" width="90"></label>
+                                </li>
+                            </ul>
+                              <div class="space-30"></div>
+                              <p>
+                                  <input type="checkbox" name="agree" id="agree">
+                                  <label for="agree">Accept our <a href="javascript:void(0)">Terms &  Condition</a></label>
+                              </p>
+                               <div class="space-30"></div>
+                            <button type="submit" class="btn btn-lg btn-block btn-dark">Place Order</button>
+                        </div><!--checkout col left end-->
+                    </div>
+                </form><!--end form-->
+            </div>
+        </div>
+
+
+        <div class="space-70"></div>
+        <div class="newsletter-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h3>Get latest news from us</h3>
+                        <p>
+                            Subscribe to our newsletter
+                        </p>
+                    </div>
+                </div><!--row-->
+
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4 text-center">
+                        <form method="post" action="#" class="form-subscribe">
+                            <input type="text" name="email" placeholder="Email Id..." class="form-control">
+                            <button type="submit" name="submit" class="btn theme-btn-color btn-block">Subscribe Now</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta-bg">
+            <div class="container text-center">
+                <h3>Get 50% Flat Offer on all Products
+                    <a href="#" class="btn btn-lg btn-white btn-radius">Purchase Now</a>
+                </h3>
+            </div>
+        </div>
+        <div id="footer" class="shop-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 margin-btm-20">
+                        <div class="footer-col">
+                            <h3>RIT Electric Vehicle Team</h3>
+                            <p>
+                                aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. aliqua.adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                            </p>
+                        </div>
+                        <div class="space-20"></div>
+                        <div class="footer-col">
+                            <h3>contact info</h3>
+                            <p><i class="ion-home"></i> pearl tower,3rd floor,jaipur,302012</p>
+                            <p><i class="ion-iphone"></i> +91 9887568614</p>
+                            <p><i class="ion-email"></i> mail@domain.com</p>
+                        </div>
+                        <div class="space-20"></div>
+                        <div class="footer-col">
+                            <h3>Follow us</h3>
+                            <ul class=" list-inline social-btn">
+                                <li><a href="#"><i class="ion-social-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Like On Facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On twitter"></i></a></li>
+                                <li><a href="#"><i class="ion-social-googleplus" data-toggle="tooltip" data-placement="top" title="" data-original-title="Follow On googleplus"></i></a></li>
+                                <li><a href="#"><i class="ion-social-pinterest" data-toggle="tooltip" data-placement="top" title="" data-original-title="pinterest"></i></a></li>
+                                <li><a href="#"><i class="ion-social-skype" data-toggle="tooltip" data-placement="top" title="" data-original-title="skype"></i></a></li>
+                            </ul>
+                        </div><!--footer social col-->
+                    </div><!--col-4 end-->
+                    <div class="col-md-3 margin-btm-20">
+                        <div class="footer-col">
+                            <h3>Quick links</h3>
+                            <ul class="post-list list-unstyled">
+                                <li><a href="#" class="hover-color">Jeans</a></li>
+                                <li><a href="#" class="hover-color">Shoes</a></li>
+                                <li><a href="#" class="hover-color">My Wishlist</a></li>
+                                <li><a href="#" class="hover-color">My Account</a></li>
+                                <li><a href="#" class="hover-color">My Orders</a></li>
+                            </ul>
+                        </div>
+                    </div><!--latest post col end-->
+                    <div class="col-md-5">
+                        <div class="footer-col">
+                            <h3>Get in touch</h3>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Name...">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" class="form-control" placeholder="Email...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" placeholder="Subject...">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" placeholder="Massage..." rows="7"></textarea>
+                                    </div>
+                                    <div class="col-md-12 text-right">
+                                        <button type="submit" class="btn btn-lg theme-btn-color">Send massege</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="space-30"></div>
+                            <div class="text-right">
+                                <img src="assets/img/shop/payment.png" alt="">
+                            </div>
+                        </div>
+                    </div><!--get in touch col end-->
+                </div><!--footer main row end-->  
+                <div class="space-70"></div>
+                <div class="row">
+                    <div class="col-md-12 text-center footer-bottom">
+                        <a href="index.html"> <img src="assets/img/logo-dark.png" alt=""></a>
+                        <div class="space-20"></div>
+                        <span>&copy;2016.all right resrved.Design by design_mylife</span>
+                    </div>
+                </div><!--footer copyright row end-->
+            </div><!--container-->
+        </div><!--footer main end-->
+
+        <!--scripts-->
+        <!--scripts-->
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/modernizr.custom.97074.js"></script>      
+        <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.easing.min.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.sticky.js" type="text/javascript"></script>
+        <script src="assets/js/parallax.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.flexslider-min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.mixitup.min.js" type="text/javascript"></script>
+        <script src="assets/js/parallax.min.js" type="text/javascript"></script>
+        <script src="assets/js/wow.min.js" type="text/javascript"></script>
+        <script src="assets/js/app.js" type="text/javascript"></script>
+        <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="assets/js/mailchimp-custom.js" type="text/javascript"></script>
+        <script src="assets/js/icheck.min.js"></script>
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/checkout-validation.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('input').iCheck({
+                    checkboxClass: 'icheckbox_square-gray',
+                    radioClass: 'iradio_square-gray',
+                    increaseArea: '20%' // optional
+                });
+            });
+        </script>
+    </body>
+</html>

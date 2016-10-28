@@ -1,0 +1,117 @@
+/*****************************sidebar css****************************/
+.sidebar-box{
+  margin-bottom: 30px;
+  h4{
+   color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    &:first-letter{
+      border-bottom: 5px solid $skincolor;
+    }
+  }
+  .social-btn li a i{
+    background-color: #000;
+    color:#fff;
+  }
+}
+.widget-search .search-form{
+  position: relative;
+  i{
+    position: absolute;
+    top: 0;
+    right:10px;
+    line-height: 38px;
+    text-align: center;
+    color: #999;
+  }
+}
+.cat-list{
+  padding: 0px;
+  list-style: none;
+  li{
+    padding: 3px 0;
+    a{
+      color:#555;
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+  }
+}
+.recent {
+  width: 100%;
+  margin-bottom: 20px;
+  float: left;
+  span img {
+    float: left;
+    margin-right: 10px;
+    width:105px;
+    height: 70px;
+  }
+  p {
+      margin: 0;
+    line-height: 22px;
+    font-size: 15px;
+    overflow: hidden;
+    a{
+      color:#555;
+    }
+  }
+  .recent-date{
+    font-size: 10px;
+    color:#999;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+.post-comment-wrapper{
+  padding: 50px 0;
+  display: block;
+  border-bottom: $default-border;
+  clear: both;
+  h3{
+    color:#000;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+}
+.comment-box{
+  margin:15px 0;
+  padding: 10px 0;
+  border-top: $default-border;
+  border-bottom: $default-border;
+  img{
+    float:left;
+    margin-right:15px;
+    width:120px;
+    height: 80px;
+  }
+  p{
+    overflow: hidden;
+  }
+  span{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#000;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+.comment-form-wrapper{
+  padding: 40px 0;
+  border-bottom: $default-border;
+  h3{
+    color:#000;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .form-control{
+    margin-bottom: 15px;
+  }
+}
+

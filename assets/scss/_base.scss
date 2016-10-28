@@ -1,0 +1,255 @@
+/* Basic Styles
+================================================== */
+body{
+    font-family: $primary-font;
+    background:$body-bg;
+    -webkit-text-size-adjust: 100%;
+    cursor:default;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#777;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    @include transition (all 0.3s ease-in);
+    &:hover,&:focus{
+        text-decoration: none;
+    }
+    &.hover-color {
+        @include transition (all 0.3s ease-in);
+        &:hover {
+            color: $skincolor !important;
+            @include transition (all 0.3s ease-in);
+        }
+    }
+}
+.padd-section{
+    padding: 90px 0;
+}
+.onepage-home{
+    padding-top: 60px;
+}
+p.lead{
+    font-weight: 400;
+}
+i{
+    display: inline-block;
+}
+/* Enable custom submit button styling in Safari mobile */
+input[type='submit']
+{
+    -webkit-appearance: none;
+}
+label{
+    font-weight: 400;
+    color:#000;
+}
+::-moz-selection {
+    color: #fff;
+    text-shadow:none;
+    background-color: $skincolor;
+}
+
+::selection {
+    color: #fff;
+    text-shadow:none;
+    background-color: $skincolor;
+}
+
+p, blockquote {
+    line-height: 23px;
+}
+
+blockquote {
+    font-style: italic;
+}
+iframe, fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.responsive-video {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    padding-top: 50.25%;
+}
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*==================== ========*/
+/*========= Forms =========*/
+/*============================*/
+.form-box{
+    padding: 15px;
+    background: #fff;
+    @include box-shadow (0px 1px 2px #999);
+}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.form-control{
+    display: inline-block;
+    @include border-radius(1px);
+    background-color: #fff;
+    border:1px solid #ddd;
+    @include border-radius (0 2px 5px rgba(0,0,0,0.1) inset);
+    font-size: 12px;
+    color: #7a7a7a;
+    height:40px;
+    background: #FFF;
+    @include transition (all 0.3s ease-in);
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.form-control:focus{
+    border: 1px solid #b3b3b3;
+    background: #FFF;
+    @include box-shadow (none);
+}
+/* Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0; font-family: $title-font;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 46px; line-height: 50px; margin-bottom: 20px;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
+h5 { font-size: 17px; line-height: 24px; }
+h6 { font-size: 14px; line-height: 21px; }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+
+
+
+/***icheck css**/
+/* iCheck plugin Square skin, green
+----------------------------------- */
+.icheckbox_square-gray,
+.iradio_square-gray {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    background: url(../img/grey.png) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+.icheckbox_square-gray {
+    background-position: 0 0;
+}
+.icheckbox_square-gray.hover {
+    background-position: -24px 0;
+}
+.icheckbox_square-gray.checked {
+    background-position: -48px 0;
+}
+.icheckbox_square-gray.disabled {
+    background-position: -72px 0;
+    cursor: default;
+}
+.icheckbox_square-gray.checked.disabled {
+    background-position: -96px 0;
+}
+
+.iradio_square-gray {
+    background-position: -120px 0;
+}
+.iradio_square-gray.hover {
+    background-position: -144px 0;
+}
+.iradio_square-gray.checked {
+    background-position: -168px 0;
+}
+.iradio_square-gray.disabled {
+    background-position: -192px 0;
+    cursor: default;
+}
+.iradio_square-gray.checked.disabled {
+    background-position: -216px 0;
+}
+
+/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
+    .icheckbox_square-gray,
+    .iradio_square-gray {
+        background-image: url(../img/grey@2x.png);
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
+/*****preloader**********/
+div#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: #fff url("../img/loader.gif") no-repeat center center;
+}
+/**********back to top*************/
+.scrollToTop {
+  text-align: center;
+  font-size: 30px;
+  background: transparent;
+  font-weight: bold;
+  color: $skincolor;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 999999;
+  display: none;
+  opacity: 0.5;
+  line-height: 0px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1;
+  color: #43baa5;
+}
