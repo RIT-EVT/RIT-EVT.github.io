@@ -420,7 +420,7 @@ div#preloader {
   box-shadow: 0 5px 6px -6px #ccc;
   width: 100%;
   padding: 5px 0;
-  position: relative;
+  position: top;
 }
 
 .fixed-header {
@@ -2185,7 +2185,7 @@ h3.subtitle {
   height: 90px;
   line-height: 90px;
   text-align: center;
-  -webkit-border-radius: 50%;
+  -webk it-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
