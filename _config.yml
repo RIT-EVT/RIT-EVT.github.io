@@ -7,6 +7,8 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://evt.rit.edu" # the base hostname & protocol for your site
 
+permalink: /blog/:year/:month/:day/:title/
+
 # Build settings
 markdown: kramdown
 
