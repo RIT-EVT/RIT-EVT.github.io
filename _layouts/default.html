@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+        <!--preloader-->
+        <div id="preloader"></div>
+        <!--preloader-->
+        <!--back to top-->
+        <a href="#" class="scrollToTop"><i class="ion-android-arrow-dropup-circle"></i></a>
+        <!--back to top end-->
+
+        {% include header.html %}
+
+        <div class="page-content">
+            <div class="wrap">
+                {{ content }}
+            </div>
+        </div>
+
+        {% include footer.html %}
+
+        {% include scripts.html %}
+
+    </body>
+</html>
