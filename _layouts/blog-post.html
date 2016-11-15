@@ -6,7 +6,23 @@ layout: default
     <div class="row">
         <div class="col-md-8">
 
-            {{ content }}
+            <div class="blog-post-section">
+                <div class="blog-post-img">
+                    <img src="/assets/img/blog/blog-1.jpg" class="img-responsive" alt="">
+                </div>
+                <div class="blog-post-header">
+                    <h3><a href="" class="hover-color">standard blog post with image</a></h3>
+                </div>
+                <div class="blog-post-info">
+                    <span><a href="#" class="hover-color">by author</a> | on 27 may 2014 | <a href="#"
+                                                                                              class="hover-color">Sports</a> | <a
+                            href="#" class="hover-color">3 comment</a></span>
+                </div>
+                <div class="blog-post-detail">
+                    {{ content }}
+                </div>
+
+            </div><!--blog post section end-->
 
             {% include comments.html %}
 
