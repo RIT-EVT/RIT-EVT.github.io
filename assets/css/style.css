@@ -4,7 +4,8 @@
 * Version: v2.2
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800);
-@import "https://fonts.googleapis.com/css?family=Raleway:500,600,700,800";
+@import "https://fonts.googleapis.com/css?family=Bungee+Hairline|Dosis|Holtwood+One+SC|Montserrat|Railway:500,600,700,800";
+@import url(//db.onlinewebfonts.com/c/4afff8102062f6322ab6d5c937152717?family=ITC+New+Baskerville);
 /* Basic Styles
 ================================================== */
 body {
@@ -188,7 +189,7 @@ input[type="color"]:focus,
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -420,7 +421,7 @@ div#preloader {
   box-shadow: 0 5px 6px -6px #ccc;
   width: 100%;
   padding: 5px 0;
-  position: relative;
+  position: top;
 }
 
 .fixed-header {
@@ -444,6 +445,13 @@ div#preloader {
   font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
+  font-family: "Bungee Hairline", cursive;
+}
+.navbar-brand-rit {
+  color: #555 !important;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "ITC New Baskerville";
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -467,7 +475,7 @@ div#preloader {
   color: #777;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
@@ -782,7 +790,7 @@ MULTI LEVEL DROPDOWN CSS
 /*!
  * Yamm!3
  * Yet another megamenu for Bootstrap 3
- * 
+ *
  * http://geedmo.github.com/yamm3
  */
 .yamm .nav,
@@ -2185,7 +2193,7 @@ h3.subtitle {
   height: 90px;
   line-height: 90px;
   text-align: center;
-  -webkit-border-radius: 50%;
+  -webk it-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
