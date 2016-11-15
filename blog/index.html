@@ -21,7 +21,7 @@ layout: default
                     <h3><a href="" class="hover-color">{{post.title}}</a></h3>
                 </div>
                 <div class="blog-post-info">
-                    <span><a href="#" class="hover-color">by {{post.author}}</a> | on {{post.date}} | <a href="#"
+                    <span><a href="#" class="hover-color">by {{post.author}}</a> | on {{post.date | date_to_long_string}} | <a href="#"
                                                                                               class="hover-color">{{post.category}}</a> | <a
                             href="#" class="hover-color">3 comment</a></span>
                 </div>
