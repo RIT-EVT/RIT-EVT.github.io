@@ -16,12 +16,12 @@
 
                 <ul class="nav navbar-nav navbar-right">
 
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/projects/">Projects</a></li>
-                    <li><a href="/sponsors/">Sponsors</a></li>
-                    <li><a href="/resources/">Resources</a></li>
+                    <li class="{% if include.active_page == '/' %}active{% endif %}"><a href="/">Home</a></li>
+                    <li class="{% if include.active_page == '/blog/' %}active{% endif %}"><a href="/blog/">Blog</a></li>
+                    <li class="{% if include.active_page == '/about/' %}active{% endif %}"><a href="/about/">About</a></li>
+                    <li class="{% if include.active_page == '/projects/' %}active{% endif %}"><a href="/projects/">Projects</a></li>
+                    <li class="{% if include.active_page == '/sponsors/' %}active{% endif %}"><a href="/sponsors/">Sponsors</a></li>
+                    <li class="{% if include.active_page == '/resources/' %}active{% endif %}"><a href="/resources/">Resources</a></li>
 
                 </ul>
 

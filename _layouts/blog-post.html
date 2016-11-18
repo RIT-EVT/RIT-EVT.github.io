@@ -1,12 +1,29 @@
 ---
 layout: default
+
 ---
 <div class="space-70"></div>
 <div class="container">
     <div class="row">
         <div class="col-md-8">
 
-            {{ content }}
+            <div class="blog-post-section">
+                <div class="blog-post-img">
+                    <img src="/assets/img/blog/{{page.firstImageFilename}}" class="img-responsive" alt="">
+                </div>
+                <div class="blog-post-header">
+                    <h3><a href="" class="hover-color">{{page.title}}</a></h3>
+                </div>
+                <div class="blog-post-info">
+                    <span><a href="#" class="hover-color">by {{page.author}}</a> | on {{page.date | date_to_long_string}} | <a href="#"
+                                                                                              class="hover-color">{{page.category}}</a> | <a
+                            href="#" class="hover-color">3 comment</a></span>
+                </div>
+                <div class="blog-post-detail">
+                    {{ content }}
+                </div>
+
+            </div><!--blog post section end-->
 
             {% include comments.html %}
 

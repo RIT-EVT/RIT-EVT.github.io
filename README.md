@@ -13,4 +13,9 @@ Build the site:
 jekyll build
 ```
 
+You can alternatively use jekyll to serve the site locally without having to push it to GitHub:
+```sh
+jekyll serve
+```
+
 http://evt.rit.edu
