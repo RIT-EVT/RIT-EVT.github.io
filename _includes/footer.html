@@ -6,14 +6,7 @@
                     <h3>Contact Info</h3>
                     <div><p class="footer-multiline"><i class="ion-home"></i></p> <div class="footer-multiline"><p>{{site.physical_address | newline_to_br}}</p></div></div>
                     <div><p class="footer-multiline"><i class="ion-email"></i></p> <div class="footer-multiline"><p>{{site.mailing_address | newline_to_br}}</p></div></div>
-                    <p><i class="ion-at"></i> <script type="text/javascript">
-                        var first = "evt", last = "rit.edu";
-                        document.write(first + '@' + last);
-                    </script></p>
-                    <p><i class="ion-at"></i>Email2: {% email address="evt@rit.edu" style="text" %}</p>
-
-
-
+                    <p><i class="ion-at"></i> {% email address=site.email style="text" %}</p>
 
                     <ul class=" list-inline social-btn">
                         <li><a href="https://www.facebook.com/RitElectricVehicleTeam" target="_blank"><i class="ion-social-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Like us on facebook"></i></a></li>

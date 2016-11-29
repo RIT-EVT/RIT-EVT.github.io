@@ -5,7 +5,15 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800);
 @import "https://fonts.googleapis.com/css?family=Bungee+Hairline|Dosis|Holtwood+One+SC|Montserrat|Railway:500,600,700,800";
-@import url(//db.onlinewebfonts.com/c/4afff8102062f6322ab6d5c937152717?family=ITC+New+Baskerville);
+/*@import url(//db.onlinewebfonts.com/c/4afff8102062f6322ab6d5c937152717?family=ITC+New+Baskerville);*/
+@font-face {font-family: "ITC New Baskerville";
+  src: url("/assets/fonts/ITC_New_Baskerville.eot");
+  src: url("/assets/fonts/ITC_New_Baskerville.eot?#iefix") format("embedded-opentype"),
+  url("/assets/fonts/ITC_New_Baskerville.woff2") format("woff2"),
+  url("/assets/fonts/ITC_New_Baskerville.woff") format("woff"),
+  url("/assets/fonts/ITC_New_Baskerville.ttf") format("truetype"),
+  url("/assets/fonts/ITC_New_Baskerville.svg#ITC New Baskerville") format("svg");
+}
 /* Basic Styles
 ================================================== */
 body {
@@ -2285,7 +2293,7 @@ h3.subtitle {
 }
 
 .page-tree-bg2 {
-  background-image: url("../assets/img/bread-bg.png");
+  background-image: url("/assets/img/bread-bg.png");
 }
 
 h3.page-tree-text {
@@ -2597,7 +2605,7 @@ a.carousel-control i {
   -webkit-animation-delay: 900ms;
   -moz-animation-delay: 0ms;
   animation-delay: 900ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 .delay-4 {
