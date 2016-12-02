@@ -1,0 +1,36 @@
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 margin-btm-20">
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <div><p class="footer-multiline"><i class="ion-home"></i></p> <div class="footer-multiline"><p>{{site.physical_address | newline_to_br}}</p></div></div>
+                    <div><p class="footer-multiline"><i class="ion-email"></i></p> <div class="footer-multiline"><p>{{site.mailing_address | newline_to_br}}</p></div></div>
+                    <p><i class="ion-at"></i> {% email address=site.email style="text" %}</p>
+
+                    <ul class=" list-inline social-btn">
+                        <li><a href="https://www.facebook.com/RitElectricVehicleTeam" target="_blank"><i class="ion-social-facebook" data-toggle="tooltip" data-placement="top" title="" data-original-title="Like us on facebook"></i></a></li>
+                        <li><a href="mailto:evt@rit.edu?Subject=Hello" target="_top"><i class="ion-email" data-toggle="tooltip" data-placement="top" title="" data-original-title="Contact us directly"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 margin-btm-20">
+                <div class="footer-col">
+                    <h3>RIT Electric Vehicle Team</h3>
+                    <p>
+                        The RIT Electric Vehicle Team is a student run organization dedicated to promoting the viability of electric vehicles through real world demonstrations of electric drivetrains in action. The team aims to educate people on the principles of electric vehicle design by engaging students in challenging and rewarding projects that cover a wide variety of academic disciplines.
+                    </p>
+                </div>
+            </div>
+        </div><!--footer main row end-->
+        <div class="space-70"></div>
+        <div class="row">
+            <div class="col-md-12 text-center footer-bottom">
+                <a href=""> <img src="/assets/img/logo-white.png" alt=""></a>
+                <div class="space-20"></div>
+                <span>&copy; 2016 | Built by Mark Koellmann and Wheeler Law</span>
+            </div>
+        </div><!--footer copyright row end-->
+    </div><!--container-->
+</div><!--footer main end-->

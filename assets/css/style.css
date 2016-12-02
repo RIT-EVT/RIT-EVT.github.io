@@ -4,7 +4,16 @@
 * Version: v2.2
 */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800);
-@import "https://fonts.googleapis.com/css?family=Raleway:500,600,700,800";
+@import "https://fonts.googleapis.com/css?family=Bungee+Hairline|Dosis|Holtwood+One+SC|Montserrat|Railway:500,600,700,800";
+/*@import url(//db.onlinewebfonts.com/c/4afff8102062f6322ab6d5c937152717?family=ITC+New+Baskerville);*/
+@font-face {font-family: "ITC New Baskerville";
+  src: url("/assets/fonts/ITC_New_Baskerville.eot");
+  src: url("/assets/fonts/ITC_New_Baskerville.eot?#iefix") format("embedded-opentype"),
+  url("/assets/fonts/ITC_New_Baskerville.woff2") format("woff2"),
+  url("/assets/fonts/ITC_New_Baskerville.woff") format("woff"),
+  url("/assets/fonts/ITC_New_Baskerville.ttf") format("truetype"),
+  url("/assets/fonts/ITC_New_Baskerville.svg#ITC New Baskerville") format("svg");
+}
 /* Basic Styles
 ================================================== */
 body {
@@ -118,7 +127,6 @@ iframe, fieldset {
   background: #fff;
   -webkit-box-shadow: 0px 1px 2px #999;
   -moz-box-shadow: 0px 1px 2px #999;
-  -ms-box-shadow: 0px 1px 2px #999;
   box-shadow: 0px 1px 2px #999;
 }
 
@@ -142,14 +150,11 @@ input[type="color"],
   display: inline-block;
   -webkit-border-radius: 1px;
   -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
   border-radius: 1px;
-  background-color: #fff;
   border: 1px solid #ddd;
-  -webkit-border-radius: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
-  -moz-border-radius: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
-  -ms-border-radius: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
-  border-radius: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
   font-size: 12px;
   color: #7a7a7a;
   height: 40px;
@@ -188,7 +193,7 @@ input[type="color"]:focus,
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Dosis", sans-serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -420,7 +425,6 @@ div#preloader {
   box-shadow: 0 5px 6px -6px #ccc;
   width: 100%;
   padding: 5px 0;
-  position: top;
 }
 
 .fixed-header {
@@ -434,7 +438,6 @@ div#preloader {
 .navbar {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   margin-bottom: 0px;
 }
@@ -444,6 +447,13 @@ div#preloader {
   font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
+  font-family: "Bungee Hairline", cursive;
+}
+.navbar-brand-rit {
+  color: #555 !important;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "ITC New Baskerville", Georgia, serif;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -467,7 +477,7 @@ div#preloader {
   color: #777;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
@@ -491,11 +501,9 @@ div#preloader {
   border: none;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-  -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
   padding: 10px 0;
   width: 100%;
@@ -556,7 +564,6 @@ div#preloader {
   height: 60px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
   border: 0px;
   font-size: 18px;
@@ -593,7 +600,6 @@ div#preloader {
   border: none;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   border-top: 2px solid #ff8100 !important;
 }
@@ -622,7 +628,6 @@ div#preloader {
   margin: 0px;
 }
 .top-bar .info li {
-  font-size: 14px;
   line-height: 40px;
   color: #555;
   font-weight: 500;
@@ -640,11 +645,9 @@ div#preloader {
   padding: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
 }
 .top-bar .cart-dropdown li {
@@ -726,7 +729,6 @@ MULTI LEVEL DROPDOWN CSS
   margin-left: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
 }
 
@@ -743,7 +745,7 @@ MULTI LEVEL DROPDOWN CSS
   position: absolute;
   font-weight: normal;
   display: inline-block;
-  font-family: FontAwesome;
+  /*font-family: FontAwesome;*/
 }
 
 .dropdown-submenu.pull-left {
@@ -755,7 +757,6 @@ MULTI LEVEL DROPDOWN CSS
   margin-left: 10px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
 }
 
@@ -767,11 +768,9 @@ MULTI LEVEL DROPDOWN CSS
   padding: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
 }
 .lang-dropdown > li > a {
@@ -782,7 +781,7 @@ MULTI LEVEL DROPDOWN CSS
 /*!
  * Yamm!3
  * Yet another megamenu for Bootstrap 3
- * 
+ *
  * http://geedmo.github.com/yamm3
  */
 .yamm .nav,
@@ -834,7 +833,6 @@ MULTI LEVEL DROPDOWN CSS
 .main-flex-slider .flex-control-paging li a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
   background: transparent !important;
   border: 2px solid #ccc;
@@ -850,7 +848,6 @@ MULTI LEVEL DROPDOWN CSS
 .portfolio-details .flex-control-paging li a {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
   background: transparent !important;
   border: 2px solid #ccc;
@@ -1108,7 +1105,6 @@ MULTI LEVEL DROPDOWN CSS
   border-bottom: none !important;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   padding: 12px 20px;
   color: #6d6d6d;
@@ -1199,11 +1195,9 @@ MULTI LEVEL DROPDOWN CSS
   transition: all 0.3s ease-in;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
   display: inline-block;
   letter-spacing: 1px;
@@ -1219,7 +1213,6 @@ MULTI LEVEL DROPDOWN CSS
   color: #fff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
   border: 2px solid #fff;
 }
@@ -1273,7 +1266,6 @@ MULTI LEVEL DROPDOWN CSS
   padding: 12px 50px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
   border-radius: 30px;
 }
 
@@ -1615,7 +1607,6 @@ h4.portfolio-post-title {
 .flexslider {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
 }
 
@@ -1712,7 +1703,7 @@ h4.portfolio-post-title {
   background-color: #333;
 }
 .product-thumb .product-thumb-overlay p a i {
-  display: inlune-block;
+  display: inline-block;
   margin-right: 5px;
   height: 40px;
   width: 40px;
@@ -1804,7 +1795,6 @@ h4.portfolio-post-title {
   transition: all 0.3s;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
 }
 .product-detail form.cart .button:hover {
@@ -2185,9 +2175,8 @@ h3.subtitle {
   height: 90px;
   line-height: 90px;
   text-align: center;
-  -webk it-border-radius: 50%;
+  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #ff8100;
   -moz-transition: all 0.3s ease-in;
@@ -2223,7 +2212,6 @@ h3.subtitle {
   background-color: #ff8100;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   display: inline-block;
 }
@@ -2285,7 +2273,6 @@ h3.subtitle {
   text-align: center;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
   border-radius: 50%;
   margin-bottom: 5px;
   display: block;
@@ -2306,7 +2293,7 @@ h3.subtitle {
 }
 
 .page-tree-bg2 {
-  background-image: url("../assets/img/bread-bg.png");
+  background-image: url("/assets/img/bread-bg.png");
 }
 
 h3.page-tree-text {
@@ -2430,12 +2417,10 @@ h3.heading-progress {
   line-height: 10px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
   background: #E9E9E9;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
   border-radius: 0px;
 }
 
@@ -2444,7 +2429,6 @@ h3.heading-progress {
   background: #ff8100;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  -ms-box-shadow: none;
   box-shadow: none;
 }
 
@@ -2605,44 +2589,44 @@ a.carousel-control i {
 /**slider carousel delay**/
 .delay-1 {
   -webkit-animation-delay: 300ms;
-  -moz-animation-delay: none;
+  -moz-animation-delay: 0ms;
   animation-delay: 300ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 .delay-2 {
   -webkit-animation-delay: 600ms;
-  -moz-animation-delay: none;
+  -moz-animation-delay: 0ms;
   animation-delay: 600ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 .delay-3 {
   -webkit-animation-delay: 900ms;
-  -moz-animation-delay: none;
+  -moz-animation-delay: 0ms;
   animation-delay: 900ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 .delay-4 {
   -webkit-animation-delay: 1200ms;
-  -moz-animation-delay: none;
+  -moz-animation-delay: 0ms;
   animation-delay: 1200ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 .delay-5 {
   -webkit-animation-delay: 1500ms;
-  -moz-animation-delay: none;
+  -moz-animation-delay: 0ms;
   animation-delay: 1500ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 .delay-6 {
   -webkit-animation-delay: 1800ms;
-  -moz-animation-delay: none;
+  -moz-animation-delay: 0ms;
   animation-delay: 1800ms;
-  -o-animation-delay: none;
+  -o-animation-delay: 0ms;
 }
 
 /******Version v1.2 css here********/
@@ -2654,7 +2638,6 @@ a.carousel-control i {
   overflow: hidden;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
   border-radius: 4px;
 }
 .direc-hover-box a .direc-overlay {
@@ -2664,7 +2647,6 @@ a.carousel-control i {
   height: 100%;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
   border-radius: 4px;
 }
 .direc-hover-box a .direc-overlay span {
@@ -2690,7 +2672,6 @@ a.carousel-control i {
     background-color: white;
     -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
-    -ms-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.16);
     border-top: 4px solid #ff8100;
   }

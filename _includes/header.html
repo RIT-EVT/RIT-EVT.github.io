@@ -1,0 +1,31 @@
+<header class="header-main">
+    <div class="navbar navbar-default yamm" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-sm visible-md visible-lg visible-xs" href="/">Electric <font color="#DB802D"> Vehicle</font> Team</a>
+                <a class="navbar-brand visible-sm hidden-md hidden-lg hidden-xs" href="/">E<font color="#DB802D">V</font>T</a>
+            </div>
+            <div class="navbar-collapse collapse">
+
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="{% if include.active_page == '/' %}active{% endif %}"><a href="/">Home</a></li>
+                    <li class="{% if include.active_page == '/blog/' %}active{% endif %}"><a href="/blog/">Blog</a></li>
+                    <li class="{% if include.active_page == '/about/' %}active{% endif %}"><a href="/about/">About</a></li>
+                    <li class="{% if include.active_page == '/projects/' %}active{% endif %}"><a href="/projects/">Projects</a></li>
+                    <li class="{% if include.active_page == '/sponsors/' %}active{% endif %}"><a href="/sponsors/">Sponsors</a></li>
+                    <li class="{% if include.active_page == '/resources/' %}active{% endif %}"><a href="/resources/">Resources</a></li>
+
+                </ul>
+
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-->
+    </div><!--navigation end-->
+
+</header><!--header main end-->

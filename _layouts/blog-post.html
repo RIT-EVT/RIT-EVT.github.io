@@ -1,0 +1,110 @@
+---
+layout: default
+
+---
+<div class="space-70"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+            <div class="blog-post-section">
+                <div class="blog-post-img">
+                    <img src="/assets/img/blog/{{page.firstImageFilename}}" class="img-responsive" alt="">
+                </div>
+                <div class="blog-post-header">
+                    <h3><a href="" class="hover-color">{{page.title}}</a></h3>
+                </div>
+                <div class="blog-post-info">
+                    <span><a href="#" class="hover-color">by {{page.author}}</a> | on {{page.date | date_to_long_string}} | <a href="#"
+                                                                                              class="hover-color">{{page.category}}</a> | <a
+                            href="#" class="hover-color">3 comment</a></span>
+                </div>
+                <div class="blog-post-detail">
+                    {{ content }}
+                </div>
+
+            </div><!--blog post section end-->
+
+            {% include comments.html %}
+
+        </div><!--blog content-->
+
+        <div class="col-md-4">
+            <div class="sidebar-box">
+                <div class="widget-search">
+                    <form class="search-form">
+                        <input type="text" class="form-control" placeholder="search here...">
+                        <i class="ion-search" data-toggle="tooltip" data-placement="top" title=""
+                           data-original-title="hit enter to search"></i>
+                    </form>
+                </div>
+            </div><!--sidebar-box-->
+            <hr>
+            <div class="sidebar-box">
+                <h4>categories</h4>
+                <ul class="cat-list">
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="10"
+                           class="hover-color">Sports</a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="6"
+                           class="hover-color">Management</a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="8"
+                           class="hover-color">Music</a></li>
+                    <li><a href="#" data-toggle="tooltip" data-placement="right" title="" data-original-title="14"
+                           class="hover-color">Product</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="sidebar-box">
+                <h4>Text widget</h4>
+                <p>
+                    Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.
+                </p>
+            </div>
+            <hr>
+            <div class="sidebar-box">
+                <h4>recent post</h4>
+                <div class="recent">
+                            <span>
+                                <img src="/assets/img/blog/blog-1.jpg" class="img-responsive" alt="">
+                            </span>
+                    <p><a href="#" class="hover-color">There are many embarrassing hidden in the middle of text.</a></p>
+                    <span class="recent-date">On 27 may in office.</span>
+                </div>
+                <div class="recent">
+                            <span>
+                                <img src="/assets/img/blog/blog-2.jpg" class="img-responsive" alt="">
+                            </span>
+                    <p><a href="#" class="hover-color">There are many embarrassing hidden in the middle of text.</a></p>
+                    <span class="recent-date">On 27 may in office.</span>
+                </div>
+                <div class="recent">
+                            <span>
+                                <img src="/assets/img/blog/blog-3.jpg" class="img-responsive" alt="">
+                            </span>
+                    <p><a href="#" class="hover-color">There are many embarrassing hidden in the middle of text.</a></p>
+                    <span class="recent-date">On 27 may in office.</span>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <hr>
+            <div class="sidebar-box">
+                <h4>Elsewhere</h4>
+                <ul class=" list-inline social-btn">
+                    <li><a href="#"><i class="ion-social-facebook" data-toggle="tooltip" data-placement="top" title=""
+                                       data-original-title="Like On Facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter" data-toggle="tooltip" data-placement="top" title=""
+                                       data-original-title="Follow On twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus" data-toggle="tooltip" data-placement="top" title=""
+                                       data-original-title="Follow On googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-pinterest" data-toggle="tooltip" data-placement="top" title=""
+                                       data-original-title="pinterest"></i></a></li>
+                    <li><a href="#"><i class="ion-social-skype" data-toggle="tooltip" data-placement="top" title=""
+                                       data-original-title="skype"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+        </div><!--sideabr blog end -->
+    </div>
+
+</div><!--blog post page content end here-->
+<div class="space-70"></div>

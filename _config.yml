@@ -1,0 +1,30 @@
+# Site settings
+title: RIT Electric Vehicle Team
+email: evt@rit.edu
+physical_address: |
+  Rochester Institute of Technology
+  Bldg 9 Room 4408
+  One Lomb Memorial Drive
+  Rochester, NY 14623
+mailing_address: |
+  RIT Electric Vehicle Team
+  Bldg 3 Room 1610
+  127 Lomb Memorial Drive
+  Rochester, NY 14623
+description: >
+  Official website for the RIT Electric Vehicle Team. Check here for news, info,
+  and sponsorship information.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://evt.rit.edu" # the base hostname & protocol for your site
+
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+paginate: 5
+gems: [jekyll-paginate]
+
+collections:
+  projects:
+    output: true
