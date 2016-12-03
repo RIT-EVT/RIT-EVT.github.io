@@ -1,0 +1,37 @@
+{
+  "name": "RIT-EVT.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/RIT-EVT/RIT-EVT.github.io",
+  "bugs": {
+    "url": "https://www.pivotaltracker.com/n/projects/1930343"
+  },
+  "license": "GPL-3.0",
+  "contributors": [
+    {
+      "name": "Wheeler Law",
+      "email": "whelderwheels613@gmail.com",
+      "url": ""
+    },
+    {
+      "name": "Mark Koellmann",
+      "email": "",
+      "url": "koellmann.co"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RIT-EVT/RIT-EVT.github.io.git"
+  },
+  "scripts": {
+    "build": "jekyll build",
+    "serve": "jekyll serve",
+    "clean": "rm -rf _site/*",
+    "deploy": "npm-run-all -s clean deploy:clone build clean deploy:release",
+    "deploy:clone": "git clone https://github.com/RIT-EVT/RIT-EVT.github.io.git --branch master _site",
+    "deploy:release": "cd _site/ && git add -A && git commit -m \"Release: $(date)\" && git push && cd .."
+  },
+  "dependencies": {
+    "npm-run-all": "3.1.2"
+
+  }
+}
