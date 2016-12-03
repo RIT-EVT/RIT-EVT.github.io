@@ -26,7 +26,8 @@
     "build": "jekyll build",
     "serve": "jekyll serve",
     "clean": "rm -rf _site/*",
-    "deploy": "npm-run-all -s clean deploy:clone build clean deploy:release",
+    "clean:destroy": "rm -rf _site/",
+    "deploy": "npm-run-all -s clean:destroy deploy:clone clean build deploy:release",
     "deploy:clone": "git clone https://github.com/RIT-EVT/RIT-EVT.github.io.git --branch master _site",
     "deploy:release": "cd _site/ && git add -A && git commit -m \"Release: $(date)\" && git push && cd .."
   },
