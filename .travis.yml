@@ -4,5 +4,6 @@ sudo: false
 dist: trusty
 install:
  - gem install jekyll jekyll-paginate
+ - nvm install 6.1
  - nvm use 6.1
 script: jekyll build
