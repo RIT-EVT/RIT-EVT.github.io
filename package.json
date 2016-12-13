@@ -1,6 +1,6 @@
 {
   "name": "RIT-EVT.github.io",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/RIT-EVT/RIT-EVT.github.io",
   "bugs": {
     "url": "https://www.pivotaltracker.com/n/projects/1930343"
@@ -26,13 +26,9 @@
     "build": "jekyll build",
     "serve": "jekyll serve",
     "clean": "rm -rf _site/*",
-    "clean:destroy": "rm -rf _site/",
-    "deploy": "npm-run-all -s clean:destroy deploy:clone clean build deploy:release",
-    "deploy:clone": "git clone https://github.com/RIT-EVT/RIT-EVT.github.io.git --branch master --depth 1 _site",
-    "deploy:release": "cd _site/ && git add -A && git commit -m \"Release: $(date)\" && git push && cd .."
+    "deploy": "cd scripts && bash deploy.sh"
   },
   "dependencies": {
     "npm-run-all": "3.1.2"
-
   }
 }
