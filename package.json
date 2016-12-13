@@ -26,6 +26,7 @@
     "build": "jekyll build",
     "serve": "jekyll serve",
     "clean": "rm -rf _site/*",
+    "test": "npm-run-all build",
     "deploy": "cd scripts && bash deploy.sh"
   },
   "dependencies": {
