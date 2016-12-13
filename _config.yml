@@ -30,6 +30,7 @@ exclude:
  - LICENSE.txt
  - node_modules
  - scripts
+ - .travis.yml
 
 collections:
   projects:
