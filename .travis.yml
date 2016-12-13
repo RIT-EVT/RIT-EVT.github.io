@@ -1,0 +1,10 @@
+language: ruby
+rvm: 2.2.5
+sudo: false
+dist: trusty
+install:
+ - gem install jekyll jekyll-paginate
+ - nvm install 6.1
+ - nvm use 6.1
+ - npm install
+script: npm run test

@@ -2,7 +2,12 @@
 
 cd ..
 rm -rf _site/
-git clone https://github.com/RIT-EVT/RIT-EVT.github.io.git --branch master --depth 1 _site
+if [ "$1" = "-ssh" ]; then
+    git clone git@github.com:RIT-EVT/RIT-EVT.github.io.git --branch master --depth 1 _site
+else
+    git clone https://github.com/RIT-EVT/RIT-EVT.github.io.git --branch master --depth 1 _site
+fi
+
 LIVE_VERSION_BUILD=`cat _site/version`
 
 LIVE_VERSION=${LIVE_VERSION_BUILD%.*}
