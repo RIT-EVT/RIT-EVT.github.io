@@ -23,6 +23,6 @@ echo "$LIVE_VERSION.$LIVE_BUILD" > _site/version
 
 cd _site/
 git add -A
-git commit -m "Version: $LIVE_VERSION, Build: $LIVE_BUILD, Release: $(date)"
+git commit -m "v$LIVE_VERSION.$LIVE_BUILD $(date)"
 git push
 cd ..
