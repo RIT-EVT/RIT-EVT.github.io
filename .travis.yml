@@ -1,10 +1,10 @@
-language: bash
+language: ruby
+rvm: 2.2.5
 sudo: required
 dist: trusty
 before_install:
  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
  - sudo apt-get update -q
  - sudo apt-get install -y nodejs
- - sudo gem install jekyll jekyll-paginate
 
 script: npm test
