@@ -24,6 +24,12 @@ markdown: kramdown
 
 paginate: 5
 gems: [jekyll-paginate]
+exclude:
+ - package.json
+ - README.md
+ - LICENSE.txt
+ - node_modules
+ - scripts
 
 collections:
   projects:
