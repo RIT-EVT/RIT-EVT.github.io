@@ -4,5 +4,3 @@ sudo: false
 dist: trusty
 install: gem install jekyll
 script: jekyll build
-
-script: npm test
