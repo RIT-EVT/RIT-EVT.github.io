@@ -4,7 +4,7 @@ dist: trusty
 before_install:
  - curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
  - sudo apt-get update -q
- - sudo apt-get install -y ruby2.1-dev nodejs
+ - sudo apt-get install -y nodejs
  - sudo gem install jekyll jekyll-paginate
 
 script: npm test
