@@ -19,3 +19,5 @@ jekyll serve
 ```
 
 http://evt.rit.edu
+
+Testing the hook
