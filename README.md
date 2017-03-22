@@ -20,4 +20,4 @@ jekyll serve
 
 http://evt.rit.edu
 
-Testing the hook, one more time
+Testing the hook, one more time, maybe a second time.
