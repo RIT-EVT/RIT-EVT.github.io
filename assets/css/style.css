@@ -24,7 +24,6 @@ body {
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
-  color: #777;
   height: 100%;
 }
 
@@ -2252,7 +2251,7 @@ h3.subtitle {
   text-transform: uppercase;
 }
 .features p {
-  color: #777;
+  color: black;
 }
 
 /**************************************testimonials******************************************/
