@@ -2,3 +2,16 @@
     display:inline-block;
     vertical-align: top;
 }
+
+.cta-bg-alternate {
+    padding: 25px 0;
+    background-color: #ff8100;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin:0px 30px 0px 30px;
+    border-radius: 10px;
+}
+.freaking-vertical-center {
+    margin: .22% 0 0 1.8%;
+}
