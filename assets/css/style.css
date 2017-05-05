@@ -319,18 +319,6 @@ small {
     }
 }
 
-/*****preloader**********/
-div#preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99999;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    background: #fff url("../img/loader.gif") no-repeat center center;
-}
-
 /**********back to top*************/
 .scrollToTop {
     text-align: center;
@@ -533,7 +521,7 @@ div#preloader {
     background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav > li > a
+.navbar-inverse .navbar-nav > li > a,
 .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
