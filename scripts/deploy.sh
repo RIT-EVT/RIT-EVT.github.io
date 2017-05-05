@@ -12,10 +12,10 @@ LIVE_VERSION_BUILD=`cat _site/version`
 
 LIVE_VERSION=${LIVE_VERSION_BUILD%.*}
 LIVE_BUILD=${LIVE_VERSION_BUILD##*.}
-PACKAGE_VERSION=`sed -nE 's/^\s*"version": "(.*?)",$/\1/p' package.json`
+PACKAGE_VERSION=`sed -nE 's/^\s*"version": "(.*?)",$/\1/p' ./package.json`
 
 if [[ "$LIVE_VERSION" == "$PACKAGE_VERSION" ]]; then
-    ((LIVE_BUILD++))
+    LIVE_BUILD=`expr $LIVE_BUILD + 1`
 else
     LIVE_VERSION=${PACKAGE_VERSION}
     LIVE_BUILD=0
