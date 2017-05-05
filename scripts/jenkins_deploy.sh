@@ -11,7 +11,7 @@ rm -rf _site/
 git clone https://${EVT_USER}:${EVT_PASS}github.com/RIT-EVT/RIT-EVT.github.io.git --branch master --depth 1 _site
 echo -------------------------------------------------
 
-LIVE_VERSION_BUILD=`cat _site/version`
+LIVE_VERSION_BUILD=`< _site/version/index.html grep -A1 data-version | tail -n1 | sed 's/^ *//;s/ *$//'`
 
 LIVE_VERSION=${LIVE_VERSION_BUILD%.*}
 LIVE_BUILD=${LIVE_VERSION_BUILD##*.}
