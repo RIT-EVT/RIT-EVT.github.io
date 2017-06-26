@@ -22,9 +22,10 @@ http://evt.rit.edu
 
 # Contributing
 This repository utilizes a pretty regimented development workflow to facilitate easy website deployment. 
+
 Notable branches:
- - `master`: this branch is what is served by Github. Do not EVER commit to, branch off of, or do ANYTHING ELSE unless you have contacted @wheelerlaw first. 
- - `develop`: this branch is the "master" branch of the repo. The latest and greatest source code lives here. Jenkins uses this branch to build the site and sticks the built files into `master`. Branch off of this branch when creating your feature branch, but DO NOT create a PR against this branch. Read on for more information as to why.
+ - `master`: This branch is what is served by Github. Do not EVER commit to, branch off of, or do ANYTHING ELSE to this branch unless you have contacted @wheelerlaw first. 
+ - `develop`: This branch is the "`master`" branch of the repo. The latest and greatest source code lives here. Jenkins uses this branch to build the site and sticks the built files into `master`. Branch off of this branch when creating your feature branch, but DO NOT create a PR against this branch. Read on for more information as to why.
  - `dmz`: This is the branch against which you will create pull requests. Jenkins automatically listens for changes to this branch. Jenkins merges this branch into develop, builds the site, and deploys it. 
 
 
@@ -48,12 +49,12 @@ git checkout develop
 git pull
 ```
 
-Create your feature branch off of `develop`. There is no enforced naming convention for feature branches, but most branch names are all lower case with words separated by underscores. PLEASE PLEASE PLEASE make it descriptive as to what the feature is (please).
+Create your feature branch off of `develop`. There is no enforced naming convention for feature branches, but most branch names are all lower case with words separated by underscores. PLEASE PLEASE PLEASE make it descriptive as to what the feature is (please):
 ```
 git checkout -b your_feature_branch
 ```
 
-Build (and serve up) the website locally and navigate to http://localhost:4000/ to view your changes before you push them.
+Build (and serve up) the website locally and navigate to http://localhost:4000/ to view your changes before you push them:
 ```
 jekyll serve
 ```
