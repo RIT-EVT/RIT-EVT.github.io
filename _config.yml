@@ -23,7 +23,7 @@ permalink: /blog/:year/:month/:day/:title/
 markdown: kramdown
 
 paginate: 5
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 exclude:
  - package.json
  - README.md
