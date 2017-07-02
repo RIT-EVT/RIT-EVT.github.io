@@ -20,3 +20,9 @@
     margin-right:10%;
     margin-top:1%;
 }
+
+.theme-btn-evt {
+    background-color: #ff8100;
+    color: #ffffff;
+    white-space:normal;
+}
