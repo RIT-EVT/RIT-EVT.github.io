@@ -17,6 +17,33 @@
 <script type="text/javascript" src="/assets/js/app.js"></script>
 <script type="text/javascript" src="/assets/js/mailchimp-custom.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.hoverdir.js" ></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+              google.charts.load('current', {'packages':['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+
+              function drawChart() {
+
+                var data = google.visualization.arrayToDataTable([
+                  ['Team', 'Number of Members'],
+                  ['Electrical',     20],
+                  ['Mechanical',     13],
+                  ['Firmware',        8],
+                ]);
+
+                var options = {
+                  title:         'EVT Subteam Membership',
+                  colors:       ['#ff8100', '#ff9a35', '#ffad5b'],
+                  fontName:      '',
+                  forceIFrame:   false,
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('Subgroup_piechart'));
+
+                chart.draw(data, options);
+              }
+        </script>
+
 <!--page template scripts-->
 <script type="text/javascript" src="/assets/masterslider/masterslider.min.js"></script>
 <script type="text/javascript" src="/assets/js/masterslider-custom.js"></script>
