@@ -230,6 +230,100 @@ Rochester, NY 14623<br />
 <script type="text/javascript" src="/assets/js/app.js"></script>
 <script type="text/javascript" src="/assets/js/mailchimp-custom.js"></script>
 <script type="text/javascript" src="/assets/js/jquery.hoverdir.js" ></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+              google.charts.load('current', {'packages':['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+
+              function drawChart() {
+
+                var data = google.visualization.arrayToDataTable([
+                  ['Subgroup', 'Number of Members'],
+                  ['Electrical',        28],
+                  ['Mechanical',        18],
+                  ['Firmware',          10],
+                  ['Industrial Design',  7],
+                ]);
+
+                var options = {
+                  title:         'EVT Membership - Subgroups',
+                  colors:       ['#ff8100', '#ff9a35', '#ffa44b', 'ffb266'],
+                  fontName:      '',
+                  forceIFrame:   false,
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('Subgroup_piechart'));
+
+                chart.draw(data, options);
+              }
+        </script>
+
+        <script type="text/javascript">
+              google.charts.load('current', {'packages':['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+
+              function drawChart() {
+
+                var data = google.visualization.arrayToDataTable([
+                  ['Project Team', 'Number of Members'],
+                  ['Supercharger',10],
+                  ['BMS',          6],
+                  ['IMU',          4],
+                  ['Battery',     16],
+                  ['Composites',   7],
+                  ['Telemetry',    4],
+                  ['Wiring',       3],
+                  ['Website',      3],
+                  ['LVSS',         2],
+                  ['Frame',        5],
+                  ['TMS',          3],
+                ]);
+
+                var options = {
+                  title:         'EVT Membership - Project Teams',
+                  colors:       ['#b85c00', '#cc6600', '#e07000', '#f57a00', '#ff8100', '#ff8f1f', '#ff9933', '#ffa347', '#ffad5c', '#ffb870', '#ffb870' ],
+                  fontName:      '',
+                  forceIFrame:   false,
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('ProjectTeam_piechart'));
+
+                chart.draw(data, options);
+              }
+        </script>
+
+        <script type="text/javascript">
+              google.charts.load('current', {'packages':['corechart']});
+              google.charts.setOnLoadCallback(drawChart);
+
+              function drawChart() {
+
+                var data = google.visualization.arrayToDataTable([
+                  ['Major', 'Number of Members'],
+                  ['EE/EET',     25],
+                  ['ME/MET',     16],
+                  ['ID',          7],
+                  ['CE/CET',      4],
+                  ['EMET',        3],
+                  ['SE',          2],
+                  ['ChemE',       1],
+                  ['CS',          2],
+                  ['CSec',        1],
+                  ['MIS',         1],
+                ]);
+
+                var options = {
+                  title:         'EVT Membership - Majors',
+                  colors:       ['#cc6600', '#e07000', '#f57a00', '#ff8100', '#ff8f1f', '#ff9933', '#ffa347', '#ffad5c', '#ffb870', '#ffb870' ],
+                  fontName:      '',
+                  forceIFrame:   false,
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('Major_piechart'));
+
+                chart.draw(data, options);
+              }
+        </script>
 <!--page template scripts-->
 <script type="text/javascript" src="/assets/masterslider/masterslider.min.js"></script>
 <script type="text/javascript" src="/assets/js/masterslider-custom.js"></script>
