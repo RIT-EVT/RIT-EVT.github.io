@@ -40,6 +40,8 @@ echo -------------------------------------------------
 git push
 cd ..
 
+git branch -r --merged origin/develop | grep -v master | grep -v dmz | grep -v \* | grep -v HEAD | grep -v develop | while read line; do git push origin :${line//origin\/}; done
+
 TAG_NAME=v$LIVE_VERSION.$LIVE_BUILD
 BRANCH_NAME=`git --no-pager log --decorate=short -n5 | grep RIT-EVT | head -n1 | sed -e 's/.*RIT-EVT\/\(.*\).*/\1/'`
 
