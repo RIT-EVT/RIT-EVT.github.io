@@ -27,8 +27,8 @@
     white-space:normal;
 }
 
-h4.h4-crowdfunding{
-    font-weight: 300 !important;
+h4.h4-crowdfunding#crowdfunding{
+    font-weight: 300;
     text-align: center;
-    font-size: 26px !important;
+    font-size: 26px;
 }
