@@ -42,7 +42,10 @@ cd ..
 
 echo -------------------------------------------------
 echo "Cleaning up old branches"
+set -x
+git fetch -a
 git branch -r --merged origin/develop | grep -v master | grep -v dmz | grep -v \* | grep -v HEAD | grep -v develop | while read line; do git push origin :${line//origin\/}; done
+set +x
 echo -------------------------------------------------
 
 TAG_NAME=v$LIVE_VERSION.$LIVE_BUILD
