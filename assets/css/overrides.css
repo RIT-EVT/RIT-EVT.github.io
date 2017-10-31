@@ -26,3 +26,9 @@
     color: #ffffff;
     white-space:normal;
 }
+
+h4.h4-crowdfunding{
+    font-weight: 300 !important;
+    text-align: center;
+    font-size: 26px !important;
+}
