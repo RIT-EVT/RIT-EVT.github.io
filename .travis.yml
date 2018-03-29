@@ -4,21 +4,21 @@ sudo: false
 dist: trusty
 branches:
   except:
-    - master
+  - master
 install: gem install jekyll jekyll-paginate
 script: jekyll build
-#env:
-#  secure: "AGJlsyyQtkmwbP1TKnU2PkfmmdNZo1q9gkuFSzqr5g4SlZHPtes7EX3MiGN/ySzOEcTLWV25tJsjrWiJxMhlAJdRFOclRrOwcBAQ71WUrfjqYik8J6lw5LQBJ63GxznZJafzFiOSlW4FAcgNmdTA4QIhnDVGJS3zQM1o4wF+aVs="
+env:
+  secure: B/gsrJxHEyYKEBR3YtRd1OPHjoxjQef42pTznjh3kX3/Cq7kJNH5iVdieLcVJHE+hjAM8sMI3E/+XiHf5eiOQKpSjE7ZXPpjVexZX+xSP0ePGfazlkJVu8CxGFgOgC+KUhomNTpyAm3VxHcywq23FGudFTe4KYLLig3fKD00m24=
 deploy:
   provider: pages
   local-dir: _site
   target-branch: master
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: "$GITHUB_TOKEN"
   keep-history: true
   committer-from-gh: true
   verbose: true
   on:
     branch:
-      - develop
-      - fix_build_system
+    - develop
+    - fix_build_system
