@@ -2,7 +2,7 @@ language: ruby
 rvm: 2.2.5
 sudo: false
 dist: trusty
-branched:
+branches:
   except:
     - master
 install: gem install jekyll jekyll-paginate
