@@ -5,9 +5,18 @@ dist: trusty
 branched:
   except:
     - master
-install:
- - gem install jekyll jekyll-paginate
- - nvm install 6.1
- - nvm use 6.1
- - npm install
-script: npm run test
+install: gem install jekyll jekyll-paginate
+script: jekyll build
+env:
+  secure: "AGJlsyyQtkmwbP1TKnU2PkfmmdNZo1q9gkuFSzqr5g4SlZHPtes7EX3MiGN/ySzOEcTLWV25tJsjrWiJxMhlAJdRFOclRrOwcBAQ71WUrfjqYik8J6lw5LQBJ63GxznZJafzFiOSlW4FAcgNmdTA4QIhnDVGJS3zQM1o4wF+aVs="
+deploy:
+  provider: pages
+  local-dir: _site
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  name: evtbot
+  email: evt@rit.edu
+  on:
+    branch: develop
