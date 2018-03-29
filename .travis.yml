@@ -16,7 +16,7 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: true
-  name: evtbot
-  email: evt@rit.edu
+  committer-from-gh: true
+  verbose: true
   on:
     branch: develop
