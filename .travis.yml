@@ -19,4 +19,6 @@ deploy:
   committer-from-gh: true
   verbose: true
   on:
-    branch: develop
+    branch:
+      - develop
+      - fix_build_system
