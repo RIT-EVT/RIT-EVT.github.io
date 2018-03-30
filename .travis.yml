@@ -6,7 +6,10 @@ branches:
   except:
   - master
 install: gem install jekyll jekyll-paginate
-script: jekyll build
+script:
+- "VERSION_BUILD=`sed -nE 's/^\s*version: (.*?)$/\1/p' _config.yml`.$TRAVIS_BUILD_NUMBER"
+- 'sed -i "/version:/c\version: $VERSION_BUILD" _config.yml'
+- jekyll build
 env:
   secure: B/gsrJxHEyYKEBR3YtRd1OPHjoxjQef42pTznjh3kX3/Cq7kJNH5iVdieLcVJHE+hjAM8sMI3E/+XiHf5eiOQKpSjE7ZXPpjVexZX+xSP0ePGfazlkJVu8CxGFgOgC+KUhomNTpyAm3VxHcywq23FGudFTe4KYLLig3fKD00m24=
 deploy:
