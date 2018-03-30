@@ -3,8 +3,8 @@ rvm: 2.2.5
 sudo: false
 dist: trusty
 branches:
-  except:
-  - master
+  only:
+  - develop
 env:
   secure: B/gsrJxHEyYKEBR3YtRd1OPHjoxjQef42pTznjh3kX3/Cq7kJNH5iVdieLcVJHE+hjAM8sMI3E/+XiHf5eiOQKpSjE7ZXPpjVexZX+xSP0ePGfazlkJVu8CxGFgOgC+KUhomNTpyAm3VxHcywq23FGudFTe4KYLLig3fKD00m24=
 install: gem install jekyll jekyll-paginate rake
