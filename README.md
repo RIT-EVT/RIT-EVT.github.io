@@ -5,7 +5,7 @@ Official website for Rochester Institute of Technology Electric Vehicle Team
 Installing depdencies:
 ```sh
 sudo apt-get install ruby-dev
-sudo gem install jekyll jekyll-paginate
+sudo gem install jekyll jekyll-paginate rake
 ```
 
 Build the site:
