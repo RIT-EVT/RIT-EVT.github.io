@@ -22,12 +22,10 @@ deploy:
   on:
     branch:
     - develop
-#after_deploy:
-#- "git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; echo ${line//*\/}; done"
-#- git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; do git push origin :${line//*\/}; done
 notifications:
   email: false
   slack:
-    secure: rI2BFBoR5PK1sucklDHhhSJG2f+ZjMr4vBpSrb+PBShC8MhZM+C5kUWRKbDHrFiE3sRndF3vE+8zi8gCxyqfKcgYBrbCwTy5rKzh0g80DsdDf5Jcp+azsGcoTEF8R3xtWiv1Q3TZCcIyulE1jWPcpOmP3SeWE7UeSbvrPxXFmEA=
-    on_pull_requests: false
     on_success: always
+    on_pull_requests: false
+    rooms:
+      secure: bQ+JQApoxyRzSBl6SE1KCFkDmncV6o5FMMSBAeGIrW/Nx2g1HIokrYP1DNNwmd0IeWEUbJaGxqqYQ6EKfqyVv+lb8SqVCbfiGSlJcsa3VCM8qcvLbgqgUiVIcX6I7zlU1L6XW2p1NqTuP67Tc3Hicn5oFUb7ijjb4BsvQrRCIl8=

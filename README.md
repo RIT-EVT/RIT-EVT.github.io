@@ -1,4 +1,6 @@
 # RIT-EVT.github.io
+[![Build Status](https://travis-ci.org/RIT-EVT/RIT-EVT.github.io.svg?branch=develop)](https://travis-ci.org/RIT-EVT/RIT-EVT.github.io)
+
 Its our Website!
 Official website for Rochester Institute of Technology Electric Vehicle Team
 
