@@ -22,8 +22,8 @@ deploy:
   on:
     branch:
     - develop
-after_deploy:
-- "git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; echo ${line//*\/}; done"
+#after_deploy:
+#- "git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; echo ${line//*\/}; done"
 #- git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; do git push origin :${line//*\/}; done
 notifications:
   email: false
