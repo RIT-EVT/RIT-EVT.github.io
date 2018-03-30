@@ -31,7 +31,9 @@ exclude:
  - node_modules
  - scripts
  - .travis.yml
+ - Rakefile
 
 collections:
   projects:
     output: true
+version: 0.1

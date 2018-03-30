@@ -2,21 +2,28 @@ language: ruby
 rvm: 2.2.5
 sudo: false
 dist: trusty
-branched:
-  except:
-    - master
-install: gem install jekyll jekyll-paginate
-script: jekyll build
+branches:
+  only:
+  - develop
 env:
-  secure: "AGJlsyyQtkmwbP1TKnU2PkfmmdNZo1q9gkuFSzqr5g4SlZHPtes7EX3MiGN/ySzOEcTLWV25tJsjrWiJxMhlAJdRFOclRrOwcBAQ71WUrfjqYik8J6lw5LQBJ63GxznZJafzFiOSlW4FAcgNmdTA4QIhnDVGJS3zQM1o4wF+aVs="
+  secure: B/gsrJxHEyYKEBR3YtRd1OPHjoxjQef42pTznjh3kX3/Cq7kJNH5iVdieLcVJHE+hjAM8sMI3E/+XiHf5eiOQKpSjE7ZXPpjVexZX+xSP0ePGfazlkJVu8CxGFgOgC+KUhomNTpyAm3VxHcywq23FGudFTe4KYLLig3fKD00m24=
+install: gem install jekyll jekyll-paginate rake
+script: rake
 deploy:
   provider: pages
   local-dir: _site
   target-branch: master
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: "$GITHUB_TOKEN"
   keep-history: true
-  name: evtbot
   email: evt@rit.edu
+  name: evtbot
+  verbose: true
   on:
-    branch: develop
+    branch:
+    - develop
+notifications:
+  email: false
+  slack:
+    secure: rI2BFBoR5PK1sucklDHhhSJG2f+ZjMr4vBpSrb+PBShC8MhZM+C5kUWRKbDHrFiE3sRndF3vE+8zi8gCxyqfKcgYBrbCwTy5rKzh0g80DsdDf5Jcp+azsGcoTEF8R3xtWiv1Q3TZCcIyulE1jWPcpOmP3SeWE7UeSbvrPxXFmEA=
+    on_pull_requests: false

@@ -5,7 +5,7 @@ Official website for Rochester Institute of Technology Electric Vehicle Team
 Installing depdencies:
 ```sh
 sudo apt-get install ruby-dev
-sudo gem install jekyll jekyll-paginate
+sudo gem install jekyll jekyll-paginate rake
 ```
 
 Build the site:
@@ -24,15 +24,13 @@ http://evt.rit.edu
 This repository utilizes a pretty regimented development workflow to facilitate easy website deployment. 
 
 Notable branches:
- - `master`: This branch is what is served by Github. Do not EVER commit to, branch off of, or do ANYTHING ELSE to this branch unless you have contacted @wheelerlaw first. 
- - `develop`: This branch is the "`master`" branch of the repo. The latest and greatest source code lives here. Jenkins uses this branch to build the site and sticks the built files into `master`. Branch off of this branch when creating your feature branch, but DO NOT create a PR against this branch. Read on for more information as to why.
- - `dmz`: This is the branch against which you will create pull requests. Jenkins automatically listens for changes to this branch. Jenkins merges this branch into develop, builds the site, and deploys it. 
+ - `develop`: This is the "master" branch of the repo, if you will. When you are starting a new feature, branch from here. This is also the branch against which you will create pull requests. Furthermore, Travis listens for changes on this branch to deploy to `master`.
+ - `master`: The contents of this branch are served to the public by GitHub pages and are built automatically by Travis when a pull request to `develop` is merged. **Do not touch this branch for any reason.** 
 
 
 Before you clone the repository, there are some settings you should set:
 ```
 git config --global push.default current
-git config --global core.autocrlf input
 git config --global user.name "<insert your name here>"
 git config --global user.email "<add your email address you use to sign into GH here"
 ```
@@ -67,6 +65,6 @@ git push -u
 ```
 Note: `-u` is only needed on the `git push` if the branch does not exist in `origin` (the repo in Github). 
 
-Now, go to Github and create a pull request for you branch, ensuring that it is against `dmz` and NOT `develop` (Say it with me folks: branch off develop, merge into dmz). Get an admin for the repository (@wheelerlaw) to sign off on your changes and merge the PR into `dmz`. 
+Now, go to Github and create a pull request against `develop`. Get an admin for the repository (@wheelerlaw) to sign off on your changes and merge the PR into `dmz`. 
 
 Wait a few minutes and your changes will show up on the site. You might need to clear your browser cache. 
