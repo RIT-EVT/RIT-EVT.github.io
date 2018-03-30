@@ -23,3 +23,7 @@ deploy:
     branch:
     - develop
     - fix_build_system
+notifications:
+  email: false
+  slack:
+    secure: rI2BFBoR5PK1sucklDHhhSJG2f+ZjMr4vBpSrb+PBShC8MhZM+C5kUWRKbDHrFiE3sRndF3vE+8zi8gCxyqfKcgYBrbCwTy5rKzh0g80DsdDf5Jcp+azsGcoTEF8R3xtWiv1Q3TZCcIyulE1jWPcpOmP3SeWE7UeSbvrPxXFmEA=
