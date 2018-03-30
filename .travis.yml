@@ -3,8 +3,10 @@ rvm: 2.2.5
 sudo: false
 dist: trusty
 branches:
-  only:
-  - develop
+#  only:
+#  - develop
+  except:
+  - master
 env:
   secure: B/gsrJxHEyYKEBR3YtRd1OPHjoxjQef42pTznjh3kX3/Cq7kJNH5iVdieLcVJHE+hjAM8sMI3E/+XiHf5eiOQKpSjE7ZXPpjVexZX+xSP0ePGfazlkJVu8CxGFgOgC+KUhomNTpyAm3VxHcywq23FGudFTe4KYLLig3fKD00m24=
 install: gem install jekyll jekyll-paginate rake
@@ -22,9 +24,6 @@ deploy:
   on:
     branch:
     - develop
-#after_deploy:
-#- "git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; echo ${line//*\/}; done"
-#- git branch -r --merged origin/develop | grep -v \* | grep -v '/master' | grep -v '/develop' | while read line; do git push origin :${line//*\/}; done
 notifications:
   email: false
   slack:
