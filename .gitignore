@@ -17,7 +17,6 @@ node_modules/
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
-
 *.iml
 
 ## Directory-based project format:
