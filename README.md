@@ -67,6 +67,6 @@ git push -u
 ```
 Note: `-u` is only needed on the `git push` if the branch does not exist in `origin` (the repo in Github). 
 
-Now, go to Github and create a pull request against `develop`. Get an admin for the repository (@wheelerlaw) to sign off on your changes and merge the PR into `dmz`. 
+Now, go to Github and create a pull request against `develop`. Get an admin for the repository ([@wheelerlaw](https://github.com/wheelerlaw) or [@RyanThorna](https://github.com/RyanThorna)) to sign off on your changes and merge the PR into `dmz`. 
 
 Wait a few minutes and your changes will show up on the site. You might need to clear your browser cache. 
