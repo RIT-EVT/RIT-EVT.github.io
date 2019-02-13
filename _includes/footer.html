@@ -6,7 +6,7 @@
                     <h3>Contact Info</h3>
                     <div><p class="footer-multiline"><i class="ion-home"></i></p> <div class="footer-multiline"><p>{{site.physical_address | newline_to_br}}</p></div></div>
                     <div><p class="footer-multiline"><i class="ion-email"></i></p> <div class="footer-multiline"><p>{{site.mailing_address | newline_to_br}}</p></div></div>
-                    <p><i class="ion-email-unread"></i> {% email address=site.email style="text" %}</p>
+                    <p><i class="ion-email-unread"></i> {{ site.email style="text" }}</p>
 
                     <ul class=" list-inline social-btn">
                         <li><a href="mailto:evt@rit.edu?Subject=Hello" target="_top"><i class="ion-email" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Contact us directly"></i></a></li>
