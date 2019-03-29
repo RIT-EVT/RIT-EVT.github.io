@@ -69,7 +69,7 @@
                     <li class=""><a href="/">Home</a></li>
                     <li class=""><a href="/blog/">Blog</a></li>
                     <li class=""><a href="/about/">About</a></li>
-                    <li class=""><a href="/projects/">Projects</a></li>
+                   <!-- <li class=""><a href="/projects/">Projects</a></li> -->
                     <li class=""><a href="/sponsors/">Sponsors</a></li>
                     <li class="active"><a href="/resources/">Resources</a></li>
 
@@ -168,66 +168,7 @@ Rochester, NY 14623<br />
 Bldg. GLE, Suite 2103, Room 2125<br />
 Rochester, NY 14623<br />
 </p></div></div>
-                    <p><i class="ion-email-unread"></i> 
-          <script type="text/javascript">
-          
-        document.copyEmail = function (event, text) {
-            var regexSymbolWithCombiningMarks = /([\0-\u02FF\u0370-\u1AAF\u1B00-\u1DBF\u1E00-\u20CF\u2100-\uD7FF\uE000-\uFE1F\uFE30-\uFFFF]|[\uD800-\uDBFF][\uDC00-\uDFFF]|[\uD800-\uDBFF](?![\uDC00-\uDFFF])|(?:[^\uD800-\uDBFF]|^)[\uDC00-\uDFFF])([\u0300-\u036F\u1AB0-\u1AFF\u1DC0-\u1DFF\u20D0-\u20FF\uFE20-\uFE2F]+)/g;
-            var regexSurrogatePair = /([\uD800-\uDBFF])([\uDC00-\uDFFF])/g;
-            var reverse = function (string) {
-                string = string
-                    .replace(regexSymbolWithCombiningMarks, function ($0, $1, $2) {
-                        return reverse($2) + $1;
-                    })
-                    .replace(regexSurrogatePair, '$2$1');
-                var result = '';
-                var index = string.length;
-                while (index--) {
-                    result += string.charAt(index);
-                }
-                return result;
-            };
-            text = reverse(text);
-            if (window.clipboardData && window.clipboardData.setData) {
-                // IE specific code path to prevent textarea being shown while dialog is visible.
-                return clipboardData.setData("Text", text);
-
-            } else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
-                var textarea = document.createElement("textarea");
-                textarea.textContent = text;
-                textarea.style.position = "fixed";  // Prevent scrolling to bottom of page in MS Edge.
-                document.body.appendChild(textarea);
-                textarea.select();
-                try {
-                    return document.execCommand("copy");  // Security exception may be thrown by some browsers.
-                } catch (ex) {
-                    console.warn("Copy to clipboard failed.", ex);
-                    return false;
-                } finally {
-                    document.body.removeChild(textarea);
-                    setTimeout(function(){
-                        var doc = document, text = event.target, range, selection;
-                        if (doc.body.createTextRange) {
-                            range = document.body.createTextRange();
-                            range.moveToElementText(text);
-                            range.select();
-                        } else if (window.getSelection) {
-                            selection = window.getSelection();
-                            range = document.createRange();
-                            range.selectNodeContents(text);
-                            selection.removeAllRanges();
-                            selection.addRange(range);
-                        }
-                    }, 1);
-
-                }
-            }
-        };
-      
-          var temp = "ude.tir@tve";
-          document.write('<span oncopy="copyEmail(event, temp)" style="unicode-bidi: bidi-override; direction: rtl;">ude&#46;tir&#64;tve</span>');
-          </script>
-        </p>
+                    <p><i class="ion-email-unread"></i> evt@rit.edu</p>
 
                     <ul class=" list-inline social-btn">
                         <li><a href="mailto:evt@rit.edu?Subject=Hello" target="_top"><i class="ion-email" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Contact us directly"></i></a></li>
