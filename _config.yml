@@ -38,3 +38,16 @@ collections:
   projects:
     output: true
 version: 0.1
+
+
+image:
+    output: generated
+    presets:
+        album_thumb:
+            width: 200
+            attr:
+                class: album-image
+        medium:
+            width: 1200
+            attr:
+                class: image

@@ -1,0 +1,41 @@
+#album-description {}
+#album-images {}
+#album-contents {
+	width: 100%;
+}
+
+.album-image {
+	max-width: 20%;
+}
+
+.image {
+	max-width: 90%;
+}
+
+.image-container {
+	width: 100%;
+}
+
+a.nav {
+	text-decoration: none;
+}
+
+.album-footer
+.image-footer {
+	text-align: center;
+}
+
+.nav.prev-button {
+	position: relative;
+	float: left;
+}
+
+.nav.next-button {
+	position: relative;
+	float: right;
+}
+
+
+.image-page {
+	text-align: center;
+}

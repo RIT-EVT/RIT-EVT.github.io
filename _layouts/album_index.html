@@ -1,0 +1,36 @@
+---
+layout: default
+page_type: album
+---
+<h2>{{ page.title }}</h2>
+{% if page.description %}
+<span id='album-description'>{{ page.description }}</span>
+{% endif %}
+
+<div id="album-contents">
+	{% if page.albums != empty %}
+	<div id='sub-albums'>
+		<h3>Sub-Albums</h3>
+		<ul>
+		{% for album in page.albums %}
+			<li><a href="{{ album.url }}">{{ album.name }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+	{% endif %}
+
+	<div id="album-images">
+	{% for image in page.images %}
+		<a href="{{ image.rel_link }}">{% image album_thumb {{image.src}} %}</a>
+	{% endfor %}
+	</div>
+
+	<div class=album-footer>
+		{% if page.prev_url %}
+		<a class="nav prev-button" href="{{ page.prev_url }}">&lt;Previous Page</a>
+		{% endif %}
+		{% if page.next_url %}
+		<a class="nav next-button" href="{{ page.next_url }}">Next Page&gt;</a>
+		{% endif %}
+	</div>
+</div>
