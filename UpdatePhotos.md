@@ -5,7 +5,8 @@ On a windows machine:
 download github desktop
 either sign into or create a github account
 
-get the RIT-EVT.github.io onto your machine
+go onto github online and fork the RIT-EVT/RIT-ECT.github.io
+go back to the github desktop and get your repo local by pulling it
 
 go to the GitHub\RIT-EVT.github.io\assets\img\team folder
 move the old photos to the "old photos"
@@ -27,3 +28,11 @@ from here you want to edit:
 Repeat the editing of all of the slides.
 	This should be the members that need to be accesible to the public aka officers and sponsorship
 	
+once the edits are done push them to orgin on github desktop. This will make the changes to your forked repo.
+
+then go back online to github and create a pull request here: https://github.com/RIT-EVT/RIT-EVT.github.io
+
+merge your changes to develop
+
+after this the Firmware team will approve your changes and there will be an auto code checker.
+Later after that the live website will be updated
