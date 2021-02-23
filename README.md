@@ -4,6 +4,8 @@
 Its our Website!
 Official website for Rochester Institute of Technology Electric Vehicle Team
 
+If you are here only to edit the team photos/emails/names then go to the 'UpdatePhotos.md' file. Otherwise continue.
+
 Installing depdencies:
 ```sh
 sudo apt-get install ruby-dev
